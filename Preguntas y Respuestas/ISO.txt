@@ -1,0 +1,31 @@
+{
+    "materiaId": 5,
+	
+	"preguntas": [
+	
+	{ 
+        "pregunta": "pregunta:",
+        
+		"respuestas":[
+		{
+            "respuesta": "r1",
+            "es_verdadera": false
+        },
+        {
+            "respuesta": "r2",
+            "es_verdadera": true
+        },
+        {
+            "respuesta": "r3",
+            "es_verdadera": false
+        },
+        {
+            "respuesta": "r4",
+            "es_verdadera": false
+        }
+		]
+    },
+	
+	
+	]
+}
