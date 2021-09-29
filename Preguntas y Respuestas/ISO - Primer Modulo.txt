@@ -1,0 +1,210 @@
+{
+    "materiaId": 6,
+    "preguntas": [
+        {
+            "pregunta": "En las distribuciones actuales de GNU Linux, un administrador puede conocer las passwords de los usuarios ya que el mismo puede visualizar el contenido de los archivos /etc/password y /etc/shadow",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Sobre esquema de particiones:",
+            "respuestas": [
+                {
+                    "respuesta": "La cantidad máxima permitida de particiones primarias depende del tipo de disco",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "La información de las particiones creadas ocupa 512 bytes en el MBR",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es posible construir un sistema de archivos sobre una partición extendida",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No es posible definir particiones lógicas sobre una partición primaria",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Ejecutar cat /etc/passwd | cut -d: | grep -i iso",
+            "respuestas": [
+                {
+                    "respuesta": "Muestra los nombres de los usuarios con la cadena iso",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Muestra los nombres de grupo con la cadena iso",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falla porque el comando cut no recibe la cantidad de parametros necesaria",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falla si lo ejecuta un usuario estándar, ya que no tiene privelegios sobre ese directorio",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falla porque el comando cut espera que la info se envíe como parámetro y no con pipe",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuál comando permite manejar los permisos que un grupo tiene sobre un archivo?:",
+            "respuestas": [
+                {
+                    "respuesta": "chroot",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "chsh",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "chgrp",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "chown",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "chmods",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Instalación de GNU/Linux:",
+            "respuestas": [
+                {
+                    "respuesta": "Se puede realizar desde un CD o a través de la red, entre otros métodos de instalación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Para una instalación estándar no hace falta crear un mínimo de particiones",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El /boot puede estar en una partición aparte",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El instalador depende de la arquitectura donde quiera instalar la distribución",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Todas son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna es correcta",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En una tabla de particiones puede haber como máximo:",
+            "respuestas": [
+                {
+                    "respuesta": "3 particiones primarias",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "2 particiones primarias y 1 extendida",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "3 particiones primarias y 10 extendidas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "3 particiones primarias y 10 lógicas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "3 particiones primarias y 1 lógica",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna es correcta",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Sobre manejo de usuarios:",
+            "respuestas": [
+                {
+                    "respuesta": "/etc/passwd se guarda info del nombre del usuario",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "/etc/passwd se guarda info acerca del intérprete de comandos que usará el usuario",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "/etc/passwd no puede ser editado con un editor de textos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Todas son correctas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Todas son incorrectas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Acerca de insserv:",
+            "respuestas": [
+                {
+                    "respuesta": "Mejora la performance del arranque en sistemas multiprocesadores",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "No utiliza cabeceras",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se utiliza para manejar y actualizar el orden de los enlaces simbólicos del /etc/rcX.d de manera estática",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Acerca de procesos:",
+            "respuestas": [
+                {
+                    "respuesta": "Cada proceso es identificado univocamente a través de su PID",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Si al ejecutarlo, en la línea de ejecución se le agrega un & al final, se ejecuta en foreground",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se utiliza para manejar y actualizar el orden de los enlaces simbólicos del /etc/rcX.d de manera estática",
+                    "es_verdadera": false
+                }
+            ]
+        },
+    ]
+}
