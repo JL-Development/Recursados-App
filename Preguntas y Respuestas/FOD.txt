@@ -1,31 +1,914 @@
 {
-    "materiaId": 4,
-	
-	"preguntas": [
-	
-	{ 
-        "pregunta": "pregunta:",
-        
-		"respuestas":[
-		{
-            "respuesta": "r1",
-            "es_verdadera": false
+    "materiaId": 2,
+    "preguntas": [
+        {
+            "pregunta": "Un archivo directo:",
+            "respuestas": [
+                {
+                    "respuesta": "a) permite acceso secuencial unicamente",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) permite acceso directo",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "d) respeta a, b y c",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) permite acceso secuencia indizado",
+                    "es_verdadera": false
+                }
+            ]
         },
         {
-            "respuesta": "r2",
-            "es_verdadera": true
+            "pregunta": "La operación CLOSE():",
+            "respuestas": [
+                {
+                    "respuesta": "a) Requiere una operación previa RESET()",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) Requiere que el archivo exista",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "c) Requiere que el archivo esté ordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Requiere que el archivo esté desordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Algunas de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
         },
         {
-            "respuesta": "r3",
-            "es_verdadera": false
+            "pregunta": "Los archivos con registros con longitud fija:",
+            "respuestas": [
+                {
+                    "respuesta": "a) Ocupan menos espacio que los archivos con registros con longitud variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) Ocupan más espacio que los archivos con registros con longitud variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) Ocupan el mismo espacio que los archivos con registros con longitud variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
         },
         {
-            "respuesta": "r4",
-            "es_verdadera": false
+            "pregunta": "La operación fileseek():",
+            "respuestas": [
+                {
+                    "respuesta": "a) Requiere la posición lógica de un registro",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) Requiere la dirección física de un registro",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) Requiere que el archivo esté lógicamente ordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Requiere que el archivo esté lógicamente desordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El concepto de framentación interna en un archivo:",
+            "respuestas": [
+                {
+                    "respuesta": "a) Se puede dar en registros de longitud fija",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "b) Se debe dar en registros de longitud variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) Se debe dar en archivos ordenados de longitud variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Todas las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Algunas de las anteriores son validas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando se utiliza un algoritmo de merge:",
+            "respuestas": [
+                {
+                    "respuesta": "a) Es necesario que el archivo maestro sea de longitud fija",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) Es necesario que el archivo detalle sea de longitud fija",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) Necesariamente el archivo maestro quedará ordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Es necesario que el archivo detalle esté ordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Todas las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) Algunas de las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "g) Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El proceso de baja física:",
+            "respuestas": [
+                {
+                    "respuesta": "a) Solo se aplica a archivos con registro de longitud fija",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) Solo se aplcia a archivos con registro de longitud variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) Reutiliza el espacio borrado ubicando a otro registro en ese lugar",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "d) Coloca una marca de borrado sobre el registro a quitar del archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Algunas de las anteriores son validas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) Ninguna de las anteriores son validas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La técnica de altas reutilizando espacio borrado, conocida como primer ajuste, en archivos de longitud fija:",
+            "respuestas": [
+                {
+                    "respuesta": "a) asigna al registro en el primer espacio que encuentra donde quepa",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) asigna el registro en el espacio donde quepa, de tamaño menor",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) asigna el registro en el espacio donde quepa, de tamaño mayor",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) algunas de las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La tecnica de mejor ajuste:",
+            "respuestas": [
+                {
+                    "respuesta": "a) asigna un registro nuevo (alta) en un la posición que quepa de tamaño menor",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) asigna un registro nuevo (alta) en un la posición que quepa de tamaño mayor",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) asigna el registro al final del archivo si no hay lugar en posiciones intermedias",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Todas las anteriores son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Algunas de las respuestas anteriores son correctas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "f) Ninguna de las respuestas anteriores son validas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El proceso de baja lógica:",
+            "respuestas": [
+                {
+                    "respuesta": "a) Esta diseñado para borrar un registro de un archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) No necesita que el archivo este ordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) No necesita que el archivo este desordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Se aplica solamente a archivos con registros con longitud fija",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Se aplica solamente a archivos con registros con longitud variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "g) Alguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En un índice secundario:",
+            "respuestas": [
+                {
+                    "respuesta": "a) Encontrar un registro es a veces mas lento que sobre un indice primario",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) Encontrar un registro es igual de rápido que sobre un indice primario",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) Encontrar un registro puede ser mas rápido que sobre un indice primario",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) si la clave a buscar no se repitiera puede ser igual de rapida su búsqueda que en un indice unívoco",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Algunas de las anteriores son validas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) ninguna de las anteriores son validas",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol AVL:",
+            "respuestas": [
+                {
+                    "respuesta": "a) Puede ser binario",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) Está completamente balanceado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) Puede estar completamente balanceado",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "d) Si es binario, está balanceado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Sino es binario, puede no estar completamente balanceado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) Algunas de las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "g) Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un arbol B:",
+            "respuestas": [
+                {
+                    "respuesta": "a) puede ser un arbol AVL",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) puede guardarse en memoria RAM",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) puede implementar una clave no univoca",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) puede tener acceso secuencial eficiente y rápido",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Todas las anteriores son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) Algunas de las anteriores son correctas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "g) ninguna de las anteriores son correctas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un arbol balanceado:",
+            "respuestas": [
+                {
+                    "respuesta": "a) la distancia entre el nodo raiz y cada nodo hoja es constante",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) puede tener una raiz que no contenga hijos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) los nodos terminales están completos en un 40% o mas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Todas las anteriores son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Algunas de las anteriores es correcta",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "f) Ninguna de las anteriores es correcta",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Dado un arbol b* de orden 100 de prefijos simples:",
+            "respuestas": [
+                {
+                    "respuesta": "a) el nodo raíz pude tener solamente 3 hijos en algun momento de su construcción",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) un nodo termina puede producir un underflow al borrar un elemento quedan 48 en el nodo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) puede ser que un nodo terminal con 50 elementos, tenga 51 hijos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) todas las respuestas anteriores son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) las opciones a y b son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) las opciones b y c son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "g) las opciones a y c son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "h) ninguna opción anteirior es correcta",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una inserción en un nodo cualquiera (terminal) de arbol B:",
+            "respuestas": [
+                {
+                    "respuesta": "a) puede generar overflow",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) puede generar división de un solo nodo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) pueden dividirse tres nodos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) todas las anteriores son correctas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "e) las dos primeras son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) la segunda y tercera son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "g) la primera y la tercera son correctas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Suponga que sobre un nodo de un árbol B se produce overflow) En dicho caso se puede:",
+            "respuestas": [
+                {
+                    "respuesta": "a) Aplicar saturación progresiva encadenada",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) Aplicar doble dispersión",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) Aplicar un área de desborde separada para el nodo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Redistribución",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Division",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "f) Toddas las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "g) Algunas de las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "h) Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un Arbol B+:",
+            "respuestas": [
+                {
+                    "respuesta": "a) Es mas eficiente que un árbol B",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) Es menos eficiente que un árbol B",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) Es más eficiente que un árbol B*",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Es menos eficiente que un árbol B*",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Algunas de las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuales de las siguientes propiedades NO corresponde a un arbol b+ de orden M:",
+            "respuestas": [
+                {
+                    "respuesta": "a) cada nodo del arbol puede contener como maximo M descendientes y M-1 elementos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) la raiz no posee descendientes o tiene al menos dos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) un nodo con x descendientes tiene x-1 elementos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) los nodos terminales tiene como maximo M-1 elementos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) los nodos no terminales pueden contener como minimo [ 2M/3 ] descendientes",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) los nodos no terminales puede contener como minimo [M/2] descendientes",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "g) todas las espuestas anteriores corresponden a propiedades de arboles b+",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Si se desea dispersar un archivo:",
+            "respuestas": [
+                {
+                    "respuesta": "a) No se puede usar hashing extensible",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) Se puede utilizar dispersión doble para tratar registros en saturación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) Se puede utilizar saturación progresiva para tratar registros en saturación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Se puede utilizar saturación progresiva encadenada para tratar registros en saturación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Se puede utilizar dispersión doble para tratar registros en saturación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) Todas las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "g) Algunas de las anteriores",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "h) Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Dos claves sinónimas:",
+            "respuestas": [
+                {
+                    "respuesta": "a) Deben utilizar un algoritmo de tratamiento de claves en saturación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) Pueden utilizar un algoritmo de tratamiento de claves en saturación",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "c) Pueden generar colisión",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Algunas de las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cual de los siguientes parámetros afecta la eficiencia de la dispersión:",
+            "respuestas": [
+                {
+                    "respuesta": "a) Cantidad de elementos del archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) Cantidad de espacio para almacenar el archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) Densidad de Empaquetamiento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Función de Dispersión",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Algoritmos para el tratamiento de registros en saturación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) Todas las anteriores",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "g) Algunas de las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "h) Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un archivo tratado con hash estatico, que tiene una densidad de empaquetamiento del 10%:",
+            "respuestas": [
+                {
+                    "respuesta": "a) tiene mucha fragmentación interna",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) tiene mucha fragmentación externa",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) presenta un nivel de colisiones bajo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) presenta un nivel de overflow bajo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Todas las anteriores son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) las opciones b y c son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "g) las opciones a y c son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "h) las opciones a, c y d son correctas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "i) las opciones b,c y d son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "j) ninguna opción es correcta",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El metodo de area de desborde por separado:",
+            "respuestas": [
+                {
+                    "respuesta": "a) Utiliza una segunda funcion de hash para ubicar los registros en saturación de un archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) direcciona el overflow de un nodo a otro nodo diferente",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) Evita generar zonas contiguas de nodos en overflow",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) todas las anteriores son validas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Las opciones a y b son verdaderas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "f) Las opciones a y c son verdaderas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "g) Las opciones b y c son verdaderas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "h) Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La técnica de Area de desoborde por separado:",
+            "respuestas": [
+                {
+                    "respuesta": "a) Utiliza un área de memoria separada para las claves en overflow",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "b) Reduce la densidad de empaquetamiento)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) Utiliza una segunda función de dispersión siempre que se desee almacenar un registro en un archivo )",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Solo se aplica a la dispersión extensible)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Ayuda a predecir la cantidad de claves en overflow)",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "f) Hay más de una opción correcta)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "g) Ninguna de las opciones anteriores es correcta",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La dispersión dinamica, denominata hash extensible:",
+            "respuestas": [
+                {
+                    "respuesta": "a) Siempre requiere el uso de una estructura auxiliar)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) Guarda los registros de forma ordenada por algún criterio",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) Necesita de dos funciones de dispersión)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Varia el tamaño del espacio de direcciones disponible, sin afectar a la función de hash",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) las opciones a y b son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) las opciones a y d son correctas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "g) Ninguna de las opciones anteriores es correcta",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El hash con espacio de direccionamiento dinamico:",
+            "respuestas": [
+                {
+                    "respuesta": "a) Encuentra los registros con un solo acceso a disco",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "b) Se puede aplicar a cualquier clave",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) No requiere de espacio adicional",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Todas la anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Algunas de las anteriores son validas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) Ninguna de las anteriores son validas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El hashing extensible:",
+            "respuestas": [
+                {
+                    "respuesta": "a) Afecta a la densidad de empaquetamiento",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "b) Puede afectar a la densidad de empaquetamiento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) Afecta la densidad de empaquetamiento sólo en casos especiales",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d) Afecta la densidad de empaquetamiento en la mayoría de los casos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Todas las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) Algunas de las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "g) Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La tecnica de hashing extensible:",
+            "respuestas": [
+                {
+                    "respuesta": "a) No utiliza una función de hash porque debe cambiar dinámicamente",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) No utiliza una función de hash porque encuentra los registros siempre en un acceso",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) Utiliza una función de hash pero esta función no devuelve la dirección donde guardar el registro ",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "d) Utiliza area de desborde por separado para los registros en overflow",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) Todas las anteriores son validas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f) Las respuestas a y c son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "g) Las respuestas b y c son correctas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "h) Las respuestas a, c y d son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "i) Ninguna es correcta",
+                    "es_verdadera": true
+                }
+            ]
         }
-		]
-    },
-	
-	
-	]
+    ]
 }
