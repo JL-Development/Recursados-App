@@ -1,0 +1,757 @@
+{
+    "materiaId": 2,
+    "preguntas": [
+        {
+            "pregunta": "Los archivos con registros de longitud variable:",
+            "respuestas": [
+                {
+                    "respuesta": "Ocupan menos espacio que los registros con lon fija",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ocupan más espacio que los registros con lon fija",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ocupan el mismo espacio que los registros con lon Fija",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un algoritmo de búsqueda en un archivo:",
+            "respuestas": [
+                {
+                    "respuesta": "Es más eficiente si el archivo está ordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Puede ser más eficiente si se considera como precondición que el archivo está ordenado",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Es igual de eficiente si el archivo está ordenado o desordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El proceso de merge de archivos:",
+            "respuestas": [
+                {
+                    "respuesta": "Requiere que todos los archivos estén ordenados",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Requiere que todos los archivos estén ordenados por el mismo criterio",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Puede hacerse sin los archivos ordenados",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "No puede realizarse sin los archivos ordenados",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas de las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La operación assign:",
+            "respuestas": [
+                {
+                    "respuesta": "Se utiliza para abrir un archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se utiliza para posicionarse en el primer registro del archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Vincula el archivo lógico con el archivo físico",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Se utiliza para saber la longitud del archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "A partir del NRR:",
+            "respuestas": [
+                {
+                    "respuesta": "Se puede acceder a un registro de un archivo fragmentado en un sólo acceso",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se puede acceder a un registro de un archivo no fragmentado en un sólo acceso",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se puede acceder a un registro de un archivo en un sólo acceso",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se puede lograr acceso directo a un archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Todas las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un archivo fragmentado:",
+            "respuestas": [
+                {
+                    "respuesta": "Debe compactarse para optimizar el espacio utilizado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No debe compactarse para optimizar el espacio utilizado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "A veces puede compactarse",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Nunca debe compactarse",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "algoritmo de actualización maestro-detalles:",
+            "respuestas": [
+                {
+                    "respuesta": "Requiere que todos los archivos tengan la misma estructura",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Puede realizarse entre archivos con diferente estructura",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Requiere que los archivos estén ordenados",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Requiere que los archivos estén desordenados",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un archivo serie:",
+            "respuestas": [
+                {
+                    "respuesta": "Está ordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Puede ordenarse",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Requiere ordenarse",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No requiere ordenarse",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No está ordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Dado un archivo con 1000 registros:",
+            "respuestas": [
+                {
+                    "respuesta": "Siempre se puede llevar a memoria RAM para hacer búsquedas más eficientes",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No siempre se puede llevar a memoria RAM para hacer búsquedas más eficientes",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Siempre se puede realizar búsqueda dicotómica",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No puede realizarse búsqueda dicotómica",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un archivo ordenado:",
+            "respuestas": [
+                {
+                    "respuesta": "Puede desordenarse",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Conviene mantenerlo ordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No conviene mantenerlo ordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No puede desordenarse",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuál de las siguientes definiciones corresponde a archivo:",
+            "respuestas": [
+                {
+                    "respuesta": "Colección de registros que abarca un conjunto de entidades con ciertos aspectos en común y organizados para un propósito particular",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Colección de registros semejantes almacenados en disco rígido",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Colección de registros del mismo tipo almacenados en un dispositivo de memoria secundaria",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Todas las opciones son correctas",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un archivo que maneja registros de longitud fija necesita:",
+            "respuestas": [
+                {
+                    "respuesta": "Delimitadores que indiquen el fin de cada campo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Delimitadores que indiquen el fin de cada registro",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Indicadores de longitud de registros",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las opciones son aplicables",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El proceso de baja en un archivo con registros de longitud variable:",
+            "respuestas": [
+                {
+                    "respuesta": "Puede recuperar el espacio disponible con nuevas altas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Puede recuperar el espacio disponible compactando periódicamente el archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Puede recuperar el espacio disponible compactando el archivo ante cada baja",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Todas las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El procedimiento de alta de información en un archivo:",
+            "respuestas": [
+                {
+                    "respuesta": "Siempre agrega información al final del archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Puede recuperar espacio dado de baja físicamente",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Siempre recupera espacio dado de baja lógicamente",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El proceso de baja lógica (sin ningún agregado de otras operaciones) de un archivo:",
+            "respuestas": [
+                {
+                    "respuesta": "Nunca recupera espacio en disco",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Siempre recupera espacio en disco",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "A veces recupera espacio en disco",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Dado un archivo:",
+            "respuestas": [
+                {
+                    "respuesta": " Siempre se necesita tener un índice asociado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Un índice asociado le permite optimizar las operaciones de alta",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Siempre debe estar ordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Ninguna",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una clave candidata:",
+            "respuestas": [
+                {
+                    "respuesta": " Admite repeticiones de valores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Admite repeticiones de campos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Podría haber sido elegida como clave primaria",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " Tiene exactamente las mismas características que la clave primarias",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El proceso de compactación de un archivo tiene sentido ser aplicado:",
+            "respuestas": [
+                {
+                    "respuesta": " Luego de realizar una operación de alta",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Luego de realizar una operación de baja lógica",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " Luego de realizar una operación de baja físicamente",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Luego de realizar una operación de modificación",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El acceso promedio para recuperar un dato en un archivo desordenado:",
+            "respuestas": [
+                {
+                    "respuesta": "Tiene orden lineal",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Tiene orden logarítmico",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Tiene orden constante (1)",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La política de primer ajuste, que permite recuperar espacio borrado en un archivo:",
+            "respuestas": [
+                {
+                    "respuesta": " Sólo se aplica en registros de long fija",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Sólo se aplica en registros de long variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Genera fragmentación interna",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Genera fragmentación externa",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Hay más de una respuesta correcta",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un algoritmo de corte de control:",
+            "respuestas": [
+                {
+                    "respuesta": " Permite actualizar un archivo maestro con un archivo detalle",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Permite actualizar un archivo maestro a partir de varios archivos detalle",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Permite presentar la información con una estructura especial",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " Permite actualizar un archivo con varios archivos detalles",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un archivo de datos:",
+            "respuestas": [
+                {
+                    "respuesta": " Necesariamente tiene registros de long fija",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Necesariamente tiene registros de long variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Puede tener registros de long fija y variable en el mismo archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Ninguna",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un borrado lógico en un archivo de datos:",
+            "respuestas": [
+                {
+                    "respuesta": " recupera inmediatamente el espacio borrado, dejando el archivo de tamaño menor",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " no se puede aplicar con registros de long variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " sólo se aplica con registros de long fija",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Permite recuperar el espacio con nuevas altas",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En un archivo con registros de longitud variable:",
+            "respuestas": [
+                {
+                    "respuesta": " Puede utilizar $ como delimitador de fin de registro",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " Cuando un registro se modifica utiliza el mismo espacio",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Se puede utilizar cualquier lugar libre de un archivo para insertar un registro",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Siempre se utiliza la política de mejor ajuste para recuperar espacio",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La función EOF:",
+            "respuestas": [
+                {
+                    "respuesta": " Puede devolver verdadero después de un reset",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " Puede devolver falso después de una lectura",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Puede devolver verdadero después de una lectura",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Devuelve verdadero si estas al final del archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Devuelve falso si no estas al final del archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Todas las anteriores",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " Algunas de las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Es posible aplicar la búsqueda binaria en:",
+            "respuestas": [
+                {
+                    "respuesta": " Archivos desordenados con registros de longitud variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Archivos desordenados con registros de longitud fija",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Archivos ordenados con registros de longitud variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Archivos ordenados con registros de longitud fija",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un archivo organizado con registros de longitud variable:",
+            "respuestas": [
+                {
+                    "respuesta": " No permite realizar bajas lógicas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Optimiza la utilización de espacio en disco",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " No permite realizar bajas físicas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Sólo acepta altas al final del archivo",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La eficiencia promedio de búsqueda en un archivo sin orden es:",
+            "respuestas": [
+                {
+                    "respuesta": " Orden lineal",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " Orden logarítmico",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " 1",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una colisión:",
+            "respuestas": [
+                {
+                    "respuesta": "a) siempre genera saturación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b) requiere utilizar saturación progresiva",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c) puede producir saturación",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "d) más de una es correcta",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e) ninguna es correcta",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La búsqueda binaria es aplicable a:",
+            "respuestas": [
+                {
+                    "respuesta": "Archivos con registros de longitud variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Archivos desordenados con registro de longitud fija",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Archivos ordenados con registros de longitud fija",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Ninguna de las opciones es correcta",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un algoritmo de actualización maestro/detalles:",
+            "respuestas": [
+                {
+                    "respuesta": "Permite actualizar un archivo maestro con un solo archivo detalle",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Permite presentar la información con un formato especial",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Permite actualizar un archivo maestro a partir de uno o varios archivos detalle",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Permite Mezclar en un único archivo los registros del archivo maestro y los registros de los archivos de detalle",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna es correcta",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La política de recuperación de espacio de Mejor Ajuste, en archivos con registros de longitud fija:",
+            "respuestas": [
+                {
+                    "respuesta": "A veces genera fragmentación externa",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Siempre genera fragmentación externa",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "A veces genera fragmentación interna",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Siempre genera fragmentación interna",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No corresponde utilizarla con archivos de longitud fija",
+                    "es_verdadera": true
+                }
+            ]
+        }
+    ]
+}
