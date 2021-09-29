@@ -86,7 +86,7 @@
             ]
         },
         {
-            "pregunta": "El parametro por valor:",
+            "pregunta": "El parámetro por valor:",
             "respuestas": [
                 {
                     "respuesta": "Es una referencia al dato original",
@@ -107,7 +107,7 @@
             ]
         },
         {
-            "pregunta": "El parametro por referencia:",
+            "pregunta": "El parámetro por referencia:",
             "respuestas": [
                 {
                     "respuesta": "Si se modifica, modifica el espacio de memoria",
@@ -131,7 +131,7 @@
             "pregunta": "Las funciones:",
             "respuestas": [
                 {
-                    "respuesta": "Permiten usar parametros por referencia",
+                    "respuesta": "Permiten usar parámetros por referencia",
                     "es_verdadera": false
                 },
                 {
@@ -160,7 +160,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Estructura de dato lineal",
+                    "respuesta": "Estructura de datos lineal",
                     "es_verdadera": true
                 },
                 {
@@ -170,35 +170,14 @@
             ]
         },
         {
-            "pregunta": "En una lista:",
-            "respuestas": [
-                {
-                    "respuesta": "No siempre terminan en nil",
-                    "es_verdadera": false
-                },
-                {
-                    "respuesta": "Se debe empezar a recorrer desde el principio",
-                    "es_verdadera": false
-                },
-                {
-                    "respuesta": "Se puede empezar a recorrer desde el principio",
-                    "es_verdadera": true
-                }
-            ]
-        },
-        {
-            "pregunta": "Para agregar o eliminar elementos en una lista:",
+            "pregunta": "Para agregar elementos en una lista:",
             "respuestas": [
                 {
                     "respuesta": "Directamente se debe agregar el dato",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Para eliminar se usa new",
-                    "es_verdadera": false
-                },
-                {
-                    "respuesta": "Si es un módulo, se la pasa por valor",
+                    "respuesta": "Primero se debe hacer dispose",
                     "es_verdadera": false
                 },
                 {
