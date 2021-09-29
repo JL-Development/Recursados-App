@@ -1,31 +1,793 @@
 {
-    "materiaId": 2,
-	
-	"preguntas": [
-	
-	{ 
-        "pregunta": "pregunta:",
-        
-		"respuestas":[
-		{
-            "respuesta": "r1",
-            "es_verdadera": false
+    "materiaId": 3,
+    "preguntas": [
+        {
+            "pregunta": "Los elementos que componen una lista simple:",
+            "respuestas": [
+                {
+                    "respuesta": "ocupan posiciones secuenciales o contiguas de memoria RAM ",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "ocupan posiciones secuenciales o contiguas de memoria RAM dependiendo de si se crea agregando al principio o al final de la lista",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "no ocupan posiciones secuenciales o contiguas de memoria RAM ",
+                    "es_verdadera": true
+                }
+            ]
         },
         {
-            "respuesta": "r2",
-            "es_verdadera": true
+            "pregunta": "Conviene utilizar un procedimiento cuando:",
+            "respuestas": [
+                {
+                    "respuesta": "Queremos enviar uno o varios parámetros por valor al módulo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Queremos que el módulo retorne un dato",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Tenemos que imprimir datos en el módulo",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Necesitamos que la solución sea mejor en tiempo de ejecución y en el uso de memoria",
+                    "es_verdadera": false
+                }
+            ]
         },
         {
-            "respuesta": "r3",
-            "es_verdadera": false
+            "pregunta": "Conviene utilizar un procedimiento cuando:",
+            "respuestas": [
+                {
+                    "respuesta": "Queremos enviar uno o varios parámetros por valor al módulo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Queremos enviar uno o varios parámetros por referencia al módulo",
+                    "es_verdadera": false
+                }
+            ]
         },
         {
-            "respuesta": "r4",
-            "es_verdadera": false
+            "pregunta": "Cuando un módulo es recursivo:",
+            "respuestas": [
+                {
+                    "respuesta": "Es eficiente en tiempo de ejecución",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es eficiente en el uso de memoria",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna es correcta",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando un módulo es recursivo:",
+            "respuestas": [
+                {
+                    "respuesta": "Resuelve el problema con invocaciones a instancias reducidas del mismo",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Es eficiente en tiempo de ejecución",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es eficiente en el uso de memoria",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando un módulo es recursivo:",
+            "respuestas": [
+                {
+                    "respuesta": "Tiene un caso base que resuelve el problema",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Es eficiente en tiempo de ejecución",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es eficiente en el uso de memoria",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una lista simple es una estructura de datos dinámica, con datos homogéneos y de acceso no lineal:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Qué se almacena en la pila de activación al llamar a un módulo recursivo?:",
+            "respuestas": [
+                {
+                    "respuesta": "Nombre de la función o procedimiento recursivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Parámetros recibidos por valor en el módulo",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Variables globales",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Qué se almacena en la pila de activación al llamar a un módulo recursivo?:",
+            "respuestas": [
+                {
+                    "respuesta": "Nombre de la función o procedimiento recursivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Variables locales del módulo",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Variables globales",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un problema recursivo posee una solución más legible si se resuelve mediante un algoritmo recursivo:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El algoritmo de búsqueda dicotómica solo se puede resolver con un algoritmo recursivo:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El algoritmo de búsqueda dicotómica solo se puede resolver con un algoritmo recursivo:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol binario puede contener valores desordenados:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Características de un árbol en computación:",
+            "respuestas": [
+                {
+                    "respuesta": "No Lineal",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "No Lineal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Heterogénea",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Acceso directo",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Características de un árbol en computación:",
+            "respuestas": [
+                {
+                    "respuesta": "Lineal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No Lineal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Homogénea",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Acceso directo",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Características de un árbol en computación:",
+            "respuestas": [
+                {
+                    "respuesta": "Lineal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No Lineal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Heterogénea",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Dinámica",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Características de un árbol en computación:",
+            "respuestas": [
+                {
+                    "respuesta": "Lineal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Acceso secuencial",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Heterogénea",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Estática",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Para realizar una impresión de los elementos de un árbol binario ordenado de mayor a menor el algoritmo al que tengo que realizar menos modificaciones es el de:",
+            "respuestas": [
+                {
+                    "respuesta": "Recorrido PRE ORDEN",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Búsqueda acotada",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Recorrido POST ORDEN",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Recorrido EN ORDEN",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Los módulos para insertar y recorrer un árbol binario ordenado solo pueden implementarse de manera recursiva:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol es una estructura de datos que satisface las siguientes propiedades:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Cada elemento del árbol se relaciona con cero o más hijos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Si el árbol tiene un único elemento este es la raíz",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Todo elemento en un árbol puede tener más de un padre",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Cada elemento del árbol se relaciona solo con un hijo, no puede tener mas de dos hijos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e. Si el árbol está vacío es un puntero a nil",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "a y b son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c y b son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "a,c y b son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "a,c y e son correctas",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol binario ordenado o de búsqueda (ABO):",
+            "respuestas": [
+                {
+                    "respuesta": "Cada nodo puede tener un valor que es más grande que el valor de todos los nodos del subárbol izquierdo y es menor que el valor de todos los nodos del subárbol derecho",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Cada nodo puede tener un valor que es menor que el valor de todos los nodos del subárbol izquierdo y es mayor que el valor de todos los nodos del subárbol derecho",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Un arbol binario ordenado siempre se mantiene balanceado, es decir la misma cantidad de hijos tanto del lado izquierdo como derecho",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol binario ordenado o de búsqueda (ABO):",
+            "respuestas": [
+                {
+                    "respuesta": "Cada nodo puede tener n hijos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es eficiente en el tiempo de búsqueda de un elemento en relación a la búsqueda en una lista",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Un árbol binario ordenado puede tener elementos repetidos y seguir ordenado sin problemas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol binario ordenado puede contener en el nodo un puntero a otro árbol binario ordenado:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Si insertamos en un ABO los elementos de una lista ordenada de n elementos, obtenemos:",
+            "respuestas": [
+                {
+                    "respuesta": "Un ABO degenerado",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Un ABO equilibrado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Un ABO lleno",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Si insertamos en un ABO los elementos de una lista ordenada de n elementos, obtenemos:",
+            "respuestas": [
+                {
+                    "respuesta": "Un ABO equilibrado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Un ABO con profundidad n",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En la búsqueda dentro de un árbol binario ordenado,  por más que la búsqueda a realizar no sea por el orden del árbol, es siempre una solución eficiente con respecto al uso de memoria:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Para que la búsqueda en un ABO sea eficiente, necesita estar balanceado:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Para el vaciado de un ABO (eliminar todos los datos de la estructura), el algoritmo al que tengo que realizar menos modificaciones es el de:",
+            "respuestas": [
+                {
+                    "respuesta": "Recorrido PRE ORDEN",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Recorrido POST ORDEN",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Búsqueda acotada",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Recorrido EN ORDEN",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cuál método imprime texto en Java?:",
+            "respuestas": [
+                {
+                    "respuesta": "System.printText()",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "out.writeText()",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "System.out.println()",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "System.out.println()",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Para distribuir tu aplicación a diferentes plataformas ¿Cuántas versiones de Java necesitas?:",
+            "respuestas": [
+                {
+                    "respuesta": "Tantas versiones como dispositivos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Solo una versión",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Dos versiones",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El encapsulamiento o ocultamiento de la información sirve para:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Ocultar la implementación de una clase",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Simplificar el código, ya que hay que escribir menos líneas de código",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Dejar visible únicamente los métodos para interactuar con los objetos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Simplificar el mantenimiento del código, ya que no hay dependencia entre la interfaz y la implementación de la clase",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e. Todas las respuestas son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "a y b son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c y d son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "a, c y d son correctas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "a, b y d son correctas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "En todo programa java:",
+            "respuestas": [
+                {
+                    "respuesta": "deben tener un método llamado main",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "todas la variables deben ser enteras",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "deben tener dos o más métodos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "al menos debe tener una variable declarada",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un objeto se caracteriza por:",
+            "respuestas": [
+                {
+                    "respuesta": "Tener un comportamiento definido",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Tener variables de instancia que representan sus comportamientos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Tener métodos privados para trabajar con su estado interno",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un objeto se caracteriza por:",
+            "respuestas": [
+                {
+                    "respuesta": "Tener variables de instancia que representan sus atributos",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Tener métodos privados para trabajar con su estado interno",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cuál de las siguientes declaraciones es verdadera?:",
+            "respuestas": [
+                {
+                    "respuesta": "Java es utilizado sólo en aplicaciones móviles y para la Web",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Java tiene una amplia comunidad de desarrolladores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Java es utilizado sólo en aplicaciones de escritorio",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cuándo proporciona el compilador de Java el constructor por defecto?:",
+            "respuestas": [
+                {
+                    "respuesta": "Siempre",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Nunca",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Cuando creo un constructor para la clase el otro está por defecto",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Cuando no se define ningún constructor en la clase",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Qué significa instanciar una clase?:",
+            "respuestas": [
+                {
+                    "respuesta": "Conectar dos clases entre sí mediante una v.i",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Crear un objeto a partir de una clase",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Ninguna respuesta es correcta",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Eliminar una clase",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Duplicar una clase",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Qué significa hacer sobrecarga de un método?:",
+            "respuestas": [
+                {
+                    "respuesta": "Crear un método con el mismo nombre, pero diferentes argumentos",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Cambiar el nombre de un método dejándolo con la misma funcionalidad",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Añadirle funcionalidades a un método",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna respuesta es correcta",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Editar un método para modificar su comportamiento",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La referencia this se utiliza cuando:",
+            "respuestas": [
+                {
+                    "respuesta": "Queremos desambiguar el nombre de un parámetro respecto a una v.i",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Dentro de un método, se quiere hacer referencia al objeto que viene por parámetro",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Queremos invocar desde un constructor a otro constructor de la misma clase",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La referencia this se utiliza cuando:",
+            "respuestas": [
+                {
+                    "respuesta": "Un objeto quiere enviar mensajes a otro",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Queremos invocar desde un método a otro de igual nombre en la misma clase",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Queremos invocar desde un constructor a otro constructor de la misma clase",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El tipo void, no tiene representación interna y se considera que el valor por defecto es null:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando enviamos objetos como parámetros, si el método los modificó vuelven intactos, ya que el pasaje de parámetros de Java es por valor:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Durante la creación de un objeto, Java selecciona el constructor a utilizar en base a los nombres y el tipo de dato de los parámetros enviados:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El envío de un mensaje a un objeto provoca la ejecución del método indicado por el nombre del mensaje:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
         }
-		]
-    },
-	
-	
-	]
+    ]
 }
