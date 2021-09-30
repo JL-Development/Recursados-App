@@ -1,0 +1,439 @@
+{
+    "materiaId": 1,
+    "preguntas": [
+        {
+            "pregunta": "Antes de utilizar una lista:",
+            "respuestas": [
+                {
+                    "respuesta": "Se debe inicializar en nil",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Se debe cargar con datos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se debe vaciar toda la memoria",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No hay que hacer nada",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La sentencia while corta su ejecución cuando:",
+            "respuestas": [
+                {
+                    "respuesta": "La condicion es falsa",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "La condicion es verdadera",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se usa para bucles infinitos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No existe en Pascal",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Los vectores se utilizan cuando:",
+            "respuestas": [
+                {
+                    "respuesta": "No se sabe la cantidad exacta de datos a guardar",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Siempre",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No se utilizan",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Cuando se sabe la cantidad exacta de datos a guardar",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El vector contador:",
+            "respuestas": [
+                {
+                    "respuesta": "Es un tipo de dato especial en Pascal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Simula el uso de muchas variables",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Se usa siempre que se implementa una lista",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Solo cuentan hasta 10",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El parámetro por valor:",
+            "respuestas": [
+                {
+                    "respuesta": "Es una referencia al dato original",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Solo se utiliza en procedimientos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se usa siempre en funciones",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es una copia del dato original",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El parámetro por referencia:",
+            "respuestas": [
+                {
+                    "respuesta": "Si se modifica, modifica el espacio de memoria",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Solo se utiliza en funciones",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se usa siempre en procedimientos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es una copia del dato original",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Las funciones:",
+            "respuestas": [
+                {
+                    "respuesta": "Permiten usar parámetros por referencia",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Retornan tipos de datos simples",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "No pueden retornar punteros",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No tiene diferencia con un procedimiento",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Qué es una lista?:",
+            "respuestas": [
+                {
+                    "respuesta": "Estructura de datos no lineal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Estructura de control",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Estructura de datos lineal",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Estructura de control lineal",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Para agregar elementos en una lista:",
+            "respuestas": [
+                {
+                    "respuesta": "Directamente se debe agregar el dato",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Primero se debe hacer dispose",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Primero se debe reservar memoria",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El uso de dispose en una lista:",
+            "respuestas": [
+                {
+                    "respuesta": "No libera memoria",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Libera memoria",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Los registros son estructuras de datos homogéneas:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Las listas son estructuras de datos heterogéneas:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando el problema dice que el corte de control no se procesa:",
+            "respuestas": [
+                {
+                    "respuesta": "Se debe usar un while",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Se debe usar un for",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se debe usar un repeat until",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se debe usar un if",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando se realiza la lectura de datos, y hay un corte de control para esta:",
+            "respuestas": [
+                {
+                    "respuesta": "se debe agregar un if para evitar lectura innecesaria",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "no cambia nada en el módulo de lectura",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un vector siempre debe inicializarse todo en cero:",
+            "respuestas": [
+                {
+                    "respuesta": "verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un vector puede contener listas dentro:",
+            "respuestas": [
+                {
+                    "respuesta": "verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Para acceder a un dato de una lista:",
+            "respuestas": [
+                {
+                    "respuesta": "lista^.dato.nombre",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "lista.nombre",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "lista^.[nombre]",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Para recorrer un vector lleno, de principio a fin:",
+            "respuestas": [
+                {
+                    "respuesta": "se debe usar un for de 1 hasta 10",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "se puede usar un for de 1 hasta 10",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "se debe recorrer hasta su dimF",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La dimensión lógica de un vector indica la cantidad máxima de datos que se pueden guardar:",
+            "respuestas": [
+                {
+                    "respuesta": "verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La dimensión lógica de un vector indica la cantidad de elementos guardados:",
+            "respuestas": [
+                {
+                    "respuesta": "verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La dimensión física indica la cantidad máxima de elementos que se pueden guardar:",
+            "respuestas": [
+                {
+                    "respuesta": "verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una lista se usa generalmente cuando:",
+            "respuestas": [
+                {
+                    "respuesta": "no se sabe la cantidad exacta de elementos a guardar",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "siempre",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "nunca",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "se sabe la cantidad exacta de elementos a guardar",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Para realizar un algoritmo de corte de control:",
+            "respuestas": [
+                {
+                    "respuesta": "los datos deben venir desordenados",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "los datos deben venir ordenados",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Para ordenar un vector:",
+            "respuestas": [
+                {
+                    "respuesta": "se necesita pasar todo a una lista",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "se realiza el método se selección",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "se realiza el método de borrado y creación",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Se puede disminuir la dimensión física de un vector durante la ejecución:",
+            "respuestas": [
+                {
+                    "respuesta": "verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Se puede disminuir la dimensión lógica de un vector durante la ejecución:",
+            "respuestas": [
+                {
+                    "respuesta": "verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "falso",
+                    "es_verdadera": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,796 @@
+{
+    "materiaId": 2,
+    "preguntas": [
+        {
+            "pregunta": "El proceso de corte de control:",
+            "respuestas": [
+                {
+                    "respuesta": "Actualiza el archivo maestro a partir de un archivo detalle",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Actualiza el archivo maestro a partir de varios archivos detalle",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Genera un único archivo, uniendo un archivo maestro con un archivo detalle",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Genera un único archivo, uniendo un archivo maestro con todos los archivos detalle",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un archivo con registros de longitud variable:",
+            "respuestas": [
+                {
+                    "respuesta": "Admite una organización mediante hashing",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Admite sólo bajas lógicas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Admite sólo bajas físicas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Admite sólo política de mejor ajuste para aprovechamiento de espacio",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La política de recuperación de espacio de peor ajuste, en un archivo con registros de longitud fija:",
+            "respuestas": [
+                {
+                    "respuesta": "Puede generar fragmentación interna",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Genera siempre fragmentación interna",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Puede generar fragmentación externa",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Genera siempre fragmentación externa",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No corresponde",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Para actualizar un archivo maestro a partir de N archivos Detalles:",
+            "respuestas": [
+                {
+                    "respuesta": "Es necesario que la información que contengan sea compatible",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Es necesario que todos los archivos están ordenados",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es necesario solo que los archivos de Detalle estén ordenadosa",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es Necesario solo que el Maestro esté ordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es necesario que todos los archivos tengan la misma estructura",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un archivo con registros de longitud fija:",
+            "respuestas": [
+                {
+                    "respuesta": "A veces tiene fragmentación",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Debe tener fragmentación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No puede tener fragmentación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Para poder realizar merge entre dos archivos:",
+            "respuestas": [
+                {
+                    "respuesta": "Los archivos deben estar ordenados con índices implementados con alguna estructura de dato no lineal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Los archivos deben estar ordenados con índices implementados con alguna estructura de dato lineal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Los archivos deben estar ordenados",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Los archivos no deben estar ordenados",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un archivo con 20 registros:",
+            "respuestas": [
+                {
+                    "respuesta": " No necesita ordenarse",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " Necesita ordenarse",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Si se ordena, debe mantenerse ordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Si se ordena, debe aceptar sólo búsquedas binarias",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Si está desordenado, la búsqueda necesita saber la posición",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Algunas de las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un algoritmo de actualización maestro detalle:",
+            "respuestas": [
+                {
+                    "respuesta": " FS detalles ordenados",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " FS maestro ordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " FS detalles y maestro ordenados",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " FS detalles desordenados",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " FS maestro desordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " FS maestro y detalles desordenados",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Algunas de las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El proceso de baja lógica:",
+            "respuestas": [
+                {
+                    "respuesta": " Se puede aplicar a archivos desordenados",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Se puede aplicar a archivos ordenados",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Se puede aplicar a archivos de longitud fija",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Se puede aplicar a archivos de longitud variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Se puede aplicar a cualquier archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " No se puede aplicar si el archivo está vacío",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Todas las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La fragmentación en un archivo de longitud fija:",
+            "respuestas": [
+                {
+                    "respuesta": " Dificulta la baja física",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Dificulta la baja lógica",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Produce pérdida de espacio",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " Es menor utilizando primer ajuste",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Algunas de las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Con respecto a un archivo con registros de longitud fija: ¿Cuáles de estas alternativas son correctas?:",
+            "respuestas": [
+                {
+                    "respuesta": " Utilizar NRR para tener acceso directo",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " Utilizar un indicador de longitud al inicio de cada registro",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Utilizar un segundo archivo con la información de la dirección del byte de inicio de cada registro",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La eficacia de un algoritmo de búsqueda de registros en un archivo de datos que no está ordenado:",
+            "respuestas": [
+                {
+                    "respuesta": "Orden constante",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Orden Lineal",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Orden logarítmico",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No tengo suficientes datos para responder",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La operación seek en un archivo:",
+            "respuestas": [
+                {
+                    "respuesta": "Permite posicionarse directamente al final del archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Permite posicionarse directamente en el primer registro del archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Permite conocer la posición actual dentro del archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Para actualizar un archivo maestro a partir de N archivos detalles:",
+            "respuestas": [
+                {
+                    "respuesta": "Es necesario que los archivos detalles estén ordenados",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es necesario que el archivo maestro esté ordenado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es necesario que todos los archivos tengan la misma estructura",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un B*:",
+            "respuestas": [
+                {
+                    "respuesta": "Se construye de manera similar a un árbol binario, salvo que en los nodos cabe más de un elemento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se construye de manera similar a un árbol B",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Puede ser la estructura superior (separadores) de un árbol B+",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Algunas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol B de orden 100, el nodo X tiene 49 elementos, si se borra un elemento de dicho nodo:",
+            "respuestas": [
+                {
+                    "respuesta": " solo se borra el elemento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " se produce underflow y se debe concatenar el nodo x",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " se prduce underflow y se debe redistribuir el nodo x",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " todas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "algunas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "ninguna",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Se tiene un árbol B+ de orden M Suponga que se haya utilizado una de las claves como separador Si la clave se borra:",
+            "respuestas": [
+                {
+                    "respuesta": "se debe borrar el separador",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "se puede borrar el separador",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "no se toca el separador",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "algunas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "ninguna",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Se definen 4 índices para un archivo de datos Dichos índices se implementan con árboles balanceados:",
+            "respuestas": [
+                {
+                    "respuesta": " la eficiencia de los 4 árboles es de orden similar, es decir, orden lineal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " los 4 árboles tienen una eficiencia en términos matemáticos igual",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " alguno de los árboles puede ser más eficiente que otro en términos matemáticos",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "todas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "algunas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "ninguna",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Sea un arbol B+ de orden M:",
+            "respuestas": [
+                {
+                    "respuesta": " ante una insercion se puede producir division",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " ante una inserción con overflow siempre se produce división",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " ante una inserción con onverflow siempre se produce redistribución",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol binario de orden 4:",
+            "respuestas": [
+                {
+                    "respuesta": " puede desbalancearse",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " puede balancearse",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " si se emplean los algoritmos correctos puede quedar balanceado en altura",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " si está desbalanceado no puede presentar una eficiencia de búsqueda de orden logarítmica",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "todas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "algunas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " no corresponde",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Si se implementa un algoritmo que permita generar un árbol B+, ese algoritmo:",
+            "respuestas": [
+                {
+                    "respuesta": " no necesita manipular el puntero al nodo raíz",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " no necesita manipular el puntero al nodo de los elementos de datos menores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " la estructura interna del árbol puede implementarse como B*",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " todas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " algunas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando se realiza un alta en un árbol B:",
+            "respuestas": [
+                {
+                    "respuesta": " se puede realizar en un nodo interno",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " siempre se produce overflow",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " puede llegar a necesitar realizar una fusión de nodos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " siempre se llega hasta el nivel hoja",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " ninguna",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuáles propiedades corresponden a un árbol B+ de prefijos simples:",
+            "respuestas": [
+                {
+                    "respuesta": " cada nodo puede tener como máximo M descendientes, siendo M el orden del árbol",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " un nodo que tiene x descendientes debe tener x-1 claves",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " está siempre balanceado, sin importar los elementos que se inserten",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " todas las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La eficiencia promedio de búsqueda en un árbol B tiene:",
+            "respuestas": [
+                {
+                    "respuesta": " orden lineal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " orden logarítmico",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " orden constante",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " ninguna",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "En un árbol B de orden 50, cuando quedan 25 elementos en un nodo:",
+            "respuestas": [
+                {
+                    "respuesta": " Se produce underflow y necesariamente debe concatenarse con un adyacente hermano",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Se produce underflow y necesariamente debe redistribuirse con un adyacente hermano",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Se produce underflow y la operación a realizar depende del esyado de los nodos adyacentes hermanos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " no se produce underflow",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un índice primario es:",
+            "respuestas": [
+                {
+                    "respuesta": " una estructura de datos adicional que contiene el mismo volumen de información que el archivo original",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " una estructura de datos adicional que permite ordenar físicamente el archivo original",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " una estructura de datos adicional que agilizar el acceso a la información del archivo",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " una estructura de datos adicional que puede contener mayor volumen de información que el archivo original",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol binario:",
+            "respuestas": [
+                {
+                    "respuesta": " Es una estructura de datos lineal, en la cual cada nodo puede tener a lo sumo dos hijos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Es una estructura de datos no lineal, que siempre se encuentra balanceada",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Es una estructura de datos no lineal, donde cada nodo tiene dos hijos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Es una estructura de datos lineal que se puede desbalancear",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Es una estructura de datos no lineal que puede llegar a tener un orden lineal de búsqueda",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un índice secundario es:",
+            "respuestas": [
+                {
+                    "respuesta": " una estructura de datos adicional que permite asociar una o varias claves primarias con una clave secundaria",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " una estructura de datos adicional que contiene el mismo volumen de información que el archivo original",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " una estructura de datos adicional que ordena físicamente (en memoria secundaria) el archivo original",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " una estructura de datos adicional que permite relacionar una clave secundaria con una sola clave primaria",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " todas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "En un árbol B:",
+            "respuestas": [
+                {
+                    "respuesta": " cada nodo contiene X elementos y X-1 hijos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " en algun caso la raíz puede tener un solo hijo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " los nodo que contienen x elementos, contienen x+1 hijos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " los nodos hojas pueden no estar al mismo nivel",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " ninguna es correcta",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " hay más de una correcta",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Con respecto a la paginación de un árbol binario:",
+            "respuestas": [
+                {
+                    "respuesta": " Cada página debe contener como mínimo 16 claves",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Divide el árbol binario en páginas que almacena en memoria principal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Para que sea más eficiente, es necesario que las páginas se ubiquen en direcciones cercanas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol que no se encuentra balanceado:",
+            "respuestas": [
+                {
+                    "respuesta": " Puede ser un árbol binario",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Puede ser un árbol multicamino",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Puede ser un árbol binario paginado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " No puede ser un árbol B+",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " No puede ser un árbol B*",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " Todas las anteriores",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": " Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        }
+    ]
+}

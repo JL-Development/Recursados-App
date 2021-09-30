@@ -1,0 +1,194 @@
+{
+    "materiaId": 9,
+    "preguntas": [
+        {
+            "pregunta": "¿Cuál es la salida del siguiente código?: print type(type(int))",
+            "respuestas": [
+                {
+                    "respuesta": "tipo 'int'",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "tipo 'tipo'",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Error",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "0",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cuál es la salida del siguiente segmento?: chr (ord ('A'))",
+            "respuestas": [
+                {
+                    "respuesta": "A",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "B",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "a",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Error",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿A qué se llama cuando se define una función dentro de una clase?: ",
+            "respuestas": [
+                {
+                    "respuesta": "Módulo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Clase",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Otra función",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Método",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cuál de los siguientes es el uso de la función id () en Python?: ",
+            "respuestas": [
+                {
+                    "respuesta": "Id devuelve la identidad del objeto",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Cada objeto no tiene una identificación única",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Todo lo mencionado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguno de los mencionados",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "time.time () devuelve: ",
+            "respuestas": [
+                {
+                    "respuesta": "La hora actual",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "La hora actual en milisegundos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "La hora actual en milisegundos desde la medianoche",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "La hora actual en milisegundos desde la medianoche del 1 de enero de 1970 GMT (la hora Unix)",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cuál es la salida del siguiente código?: print 9//2",
+            "respuestas": [
+                {
+                    "respuesta": "4.5",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "4.0",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "4",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Error",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Qué función sobrecarga el operador >>? ",
+            "respuestas": [
+                {
+                    "respuesta": "mas()",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "gt()",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "ge()",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Qué operador está sobrecargado por la función o ()? ",
+            "respuestas": [
+                {
+                    "respuesta": "||",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "|",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "//",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "/",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Qué tipo de datos es el objeto a continuación? L = [1, 23, 'hola', 1]? ",
+            "respuestas": [
+                {
+                    "respuesta": "Lista",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Diccionario",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Tupla",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Formación",
+                    "es_verdadera": false
+                }
+            ]
+        }
+    ]
+}

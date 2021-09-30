@@ -788,6 +788,170 @@
                     "es_verdadera": false
                 }
             ]
+        },
+        {
+            "pregunta": "Para recorrer una matriz, debo usar dos while:",
+            "respuestas": [
+                {
+                    "respuesta": "solo si la matriz está completa",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "siempre",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "siempre debo usar dos for",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "cuando quiero buscar un elemento",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El método toString() imprime en pantalla la representación de un objeto:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El método toString() se debe sobreescribir:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Los atributos de una clase no deben ser públicos:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Con Java no se puede implementar una interfaz gráfica:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En un merge acumulador, siempre el resultado se verá reflejado en una lista nueva:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La herencia se utiliza siempre que se haga más de una clase:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una clase padre debe tener al menos dos hijos:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una clase padre siempre debe ser abstracta:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una clase padre se puede instanciar:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El polimorfismo existe cuando hay más de un método con el mismo nombre y diferente cantidad de parámetros:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Las clases pueden tener mas de dos constructores:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
         }
     ]
 }
