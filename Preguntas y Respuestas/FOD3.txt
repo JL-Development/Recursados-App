@@ -1273,6 +1273,711 @@
                     "es_verdadera": false
                 }
             ]
+        },
+        {
+            "pregunta": "Cuando se realiza un alta en un árbol B:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Se puede realizar en un nodo interno",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Siempre produce overflow",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Puede llegar a necesitar de realizar una fusión de nodos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Siempre se llega hasta el nivel hoja",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "e. Ninguna respuesta es la correcta",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "cuáles de los siguientes parámetros afecta la eficiencia de la dispersión:",
+            "respuestas": [
+                {
+                    "respuesta": "a. cantidad de elementos del archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. cantidad de espacio para almacenar el archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. densidad de empaquetamiento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. función de dispersión",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e. algoritmos para el tratamiento de registros en saturación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "todas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "algunas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "ninguna",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Si se quiere dispersar un archivo de 40.000 elementos:",
+            "respuestas": [
+                {
+                    "respuesta": "a. se requiere un archivo de 40.000 cubetas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. se requiere un archivo de al menos 40.000 cubetas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. se requiere un archivo de menos de 40.000",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. todas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e. algunas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f. ninguna",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Si se dispone la DE de un archivo:",
+            "respuestas": [
+                {
+                    "respuesta": "a. siempre se puede calcular la cantidad probable de registros en saturación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. no se puede calcular la cantidad probable de registros en saturación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. si se calcula la cantidad probable de registros en saturación, la DE fuemayor que 1",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. si se calcula la cantidad probable de registros en saturación, la DE fuemenor que 1",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e. algunas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f. ninguna",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El método de tratamiento de desbordes:",
+            "respuestas": [
+                {
+                    "respuesta": "a. afecta la DE",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. puede afectar la DE",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. afecta la DE en casos especiales",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. afecta la DE en la mayoría de los casos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e. todas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "algunas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "ninguna",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una función de hash perfecta:",
+            "respuestas": [
+                {
+                    "respuesta": "a. es difícil de conseguir",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. necesita de un algoritmo para tratamiento de registros en saturación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. puede tener menos del 1% de claves sinónimos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. afecta la DE en la mayoría de los casos",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "e. todas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "algunas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Si ocurrió saturación:",
+            "respuestas": [
+                {
+                    "respuesta": "a. hubo colisión",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "b. no hubo colisión",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. pudo haber ocurrido colisión",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. hay más de 2 claves sinónimo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e. todas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "f. algunas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "g. ninguna",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una colisión se produce:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Cuando dos registros diferentes obtienen de la función de hash la misma dirección de disco",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "b. Cuando dos registros iguales obtienen de la función de hash direcciones diferentes de disco",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Cuando un registro no cabe en el lugar donde debe almacenarse de acuerdo al resultado de la función de hash",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Cuando dos registros diferentes obtienen de la función de hash direcciones diferentes de disco",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La eficiencia promedio de búsqueda en un archivo a partir de estar organizado mediante política de Hashing:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Orden Lineal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Orden logarítmico",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Orden Constante",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "d. No dispongo de datos para contestar la pregunta",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La eficiencia de búsqueda de un registro en un archivo organizado mediante hashing estático tiene:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Orden Lineal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Algunas veces es uno",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "c. Siempre es uno",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Orden Logarítmico",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La técnica de saturación progresiva encadenada:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Evita la generación de colisiones",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Necesita que cada cubeta tenga capacidad para dos o más registros",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Requiere al menos de dos funciones de hash para el tratamiento de los desbordes",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuál de las siguientes definiciones corresponden al método de hash:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Técnica para generar una dirección base única para una clave dada",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Técnica que convierte la clave asociada a un registro de datos en un número aleatorio, que se utiliza para determinar donde se almacena el registro",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Técnica de almacenamiento y recuperación que usa una función para mapear registros en direcciones de almacenamiento en memoria secundaria",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Todas las anteriores son aplicables",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La técnica de hash:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Entorpece la inserción y el borrado de elementos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. La localización de un registro siempre debe utilizar una tabla adicional en memoria",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. No es conveniente de aplicar sobre claves secundarias",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "d. Requiere al menos de dos funciones de hash para el tratamiento de los desbordes",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuál de los siguientes conceptos corresponden con parámetros de la dispersión:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Capacidad de almacenamiento de cada sector del archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Densidad de empaquetamiento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Método de tratamiento de desbordes",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Todos los anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando la Densidad de empaquetamiento de un archivo tiende a uno:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Es necesario redefinir el espacio disponible únicamente",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. El archivo se completa y no es posible incorporar más elementos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Se debe cambiar la política de hash de estática a dinámica",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Es necesario redefinir el espacio disponible y rehashear todo el archivo",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La técnica de hash extensible:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Presenta una variante de hash que permite no solo ubicar rápidamente los registros, sino que además permite el acceso secuencial a los mismos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Siempre inserta un registro con un y solo un acceso a disco",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Siempre se recupera un registro con un y solo un acceso a disco",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "d. En algunos casos recupera un registro con un y solo un acceso a disco",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "En un ambiente de dispersión, cuanto más grande es el tamaño de la cubeta:",
+            "respuestas": [
+                {
+                    "respuesta": "Hay más fragmentación",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Hay mayor probabilidad de saturación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "La búsqueda dentro de la cubeta es más lenta",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La densidad de empaquetamiento se puede definir como:",
+            "respuestas": [
+                {
+                    "respuesta": "La relación entre la cantidad de registros y la cantidad de cubetas del archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "La proporción de espacio asignado al archivo que en realidad almacena registros",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "DE = cantidad de registros / (cantidad de cubetas)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Se produce saturación:",
+            "respuestas": [
+                {
+                    "respuesta": "Siempre que dos registros diferentes obtienen de la función de hash la misma dirección de disco",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Siempre que dos registros iguales obtienen de la función de hash direcciones diferentes de disco",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Cuando un registro no cabe en el lugar donde debe almacenarse según el resultado de la función de hash",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Cuando dos registros diferentes obtienen de la función de hash direcciones diferentes de disco",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Al utilizar la técnica de dispersión doble:",
+            "respuestas": [
+                {
+                    "respuesta": "Dada una clave, siempre se debe aplicar dos funciones: inicialmente se aplica la 1ra función,y al resultado se le aplica la 2da función para obtener finalmente la dirección de almacenamiento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se cuenta con dos funciones, pero sólo se aplica la 2da función si se produjo una saturación al aplicar la 1ra función",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Cuando se usa la 2da función, el valor obtenido reemplaza al anteriormente obtenido por la 1ra función",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "En un ambiente de dispersión con espacio de direccionamiento estático:",
+            "respuestas": [
+                {
+                    "respuesta": "Siempre se encuentra un registro con un solo acceso a disco",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No se permiten claves duplicadas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Es posible usar archivos con registros de longitud variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Con respecto a la dispersión extensible:",
+            "respuestas": [
+                {
+                    "respuesta": "El espacio aumenta o disminuye dependiendo de los registros que contiene el archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Necesita una tabla auxiliar",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "La densidad de empaquetamiento siempre se mantiene por debajo del 75%",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Al usar dispersión con espacio de direccionamiento estático. ¿Cuáles de los siguientes procesos se debe realizar si se agota el espacio disponible asignado al archivo?:",
+            "respuestas": [
+                {
+                    "respuesta": "Iniciar un nuevo archivo y relacionarlo con el archivo que quedó completo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Obtener más espacio para el mismo archivo, actualizar la función de hash, y redispersar el archivo completo",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Obtener más espacio para el mismo archivo, actualizar la función de hash pero no redispersar (se usa la nueva función sólo para los nuevos elementos)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No es posible que se agote el espacio disponible asignado al archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "En un ambiente de dispersión con espacio de almacenamiento estático:",
+            "respuestas": [
+                {
+                    "respuesta": "Se debe usar archivos con registro de long fija",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Siempre se encuentra un registro con un solo acceso a disco",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No existe orden físico de datos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El método de tratamiento de desborde en área separada:",
+            "respuestas": [
+                {
+                    "respuesta": "Utiliza una segunda función de hash para determinar donde va el registro en overflow",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Utiliza una segunda función de hash para determinar el nuevo nodo donde se guardará el registro en overflow",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Selecciona el primer nodo libre más cercano al nodo saturado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Selecciona el primer nodo libre más cercano al saturado y los linkea",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El hash con espacio de direccionamiento dinámico:",
+            "respuestas": [
+                {
+                    "respuesta": "Utiliza una función de hash diferente cada vez que el tamaño del archivo crece",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Aumenta la capacidad del nodo cuando se puede producir un overflow",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Aumenta la cantidad de nodos en caso de overflow",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Todas la anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Implementar hash para ordenar un archivo:",
+            "respuestas": [
+                {
+                    "respuesta": "Mejora el acceso a un archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Puede empeorar el acceso a los datos de un archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Si es hash extensible la mejora es notable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El concepto no es aplicable",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una función de hash:",
+            "respuestas": [
+                {
+                    "respuesta": "Siempre devuelve una dirección donde se debería almacenar el registro dispersado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Siempre devuelve una secuencia de bits que sirve para determinar dónde se debería almacenar el registro dispersado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Siempre debe ser aleatoria",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Todas las anteriores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuál de los siguientes parámetros de la técnica de hash es más importante?:",
+            "respuestas": [
+                {
+                    "respuesta": "Función de hash",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Tamaño de cada nodo de almacenamiento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Densidad de empaquetamiento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Método de tratamiento de overflow",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguno es importante",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguno prevalece sobre el otro",
+                    "es_verdadera": true
+                }
+            ]
         }
     ]
 }
