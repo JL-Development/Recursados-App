@@ -791,6 +791,488 @@
                     "es_verdadera": false
                 }
             ]
+        },
+        {
+            "pregunta": "Un árbol B de orden 200:",
+            "respuestas": [
+                {
+                    "respuesta": "a. En una hoja, puede tener hasta 99 elementos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. En una hoja, puede tener más de 99 elementos",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "c. En una hoja, puede tener menos de 99 elementos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. La raíz siempre tiene hijos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e. La raíz tiene hijos si el árbol tiene más de 50 elementos",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol B+ de prefijos simples:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Se utiliza para representar un índice de un archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Se utiliza para lograr acceso secuencial rápido a un archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Optimiza el espacio requerido para almacenar el árbol",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Todas las anteriores son correctas",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Los árboles B*:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Permiten localizar un registro de manera más eficiente que un árbol B, porque además permiten una búsqueda secuencial eficiente",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Permiten localizar un registro de manera más eficiente que un árbol B, cuando ambos árboles tienen un solo nodo respectivamente",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Completan los nodos en al menos 2/3 de su capacidad",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "d. Los nodos terminales no aparecen en igual nivel",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Dado un árbol B+:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Todos sus nodos siempre tienen claves del archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Se lo puede utilizar sólo para recorrer secuencialmente al archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Es más eficiente que un árbol B en la búsqueda de un elemento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Ninguna de las opciones anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuáles de las siguientes definiciones pueden atribuirse a un árbol binario:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Es una estructura de datos no lineal, en la cual cada nodo puede tener a lo sumo dos hijos",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "b. Es una estructura de datos no lineal, que siempre se encuentra balanceada",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Es una estructura de datos no lineal, que se encuentra balanceada en altura",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Es una estructura de datos no lineal, en la cual cada nodo puede tener un número de hijos ilimitado",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol multicamino es:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Es una estructura de datos no lineal, en la cual cada nodo puede tener un número determinado de hijos",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "b. Es una estructura de datos no lineal, que siempre se encuentra balanceada",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Es una estructura de datos no lineal, que se encuentra balanceada en altura",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Es una estructura de datos no lineal, en la cual cada nodo puede tener a lo sumo 5 hijos",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuales propiedades corresponden a un árbol B:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Cada nodo puede tener como máximo M descendientes, siendo M el orden del árbol",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Un nodo que tiene x descendientes debe tener x-1 claves",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Está siempre balanceado, sin importar los elementos que se inserten",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Todas las propiedades anteriores corresponden a un árbol B",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol B*:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Es más eficiente en el algoritmo de búsqueda que un árbol b",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. La altura puede ser inferior a la de un árbol B porque los elementos se distribuyen más eficientemente en los nodos",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "c. La altura puede ser superior a la de un árbol B porque los elementos se distribuyen más eficientemente en los nodos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Permite acceder secuencialmente a los elementos del árbol",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando se borra un elemento de un nodo en un árbol B:",
+            "respuestas": [
+                {
+                    "respuesta": "a. El elemento debe estar en un nodo terminal, si no lo está debe ser llevado a un nodo terminal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. A veces puede producirse underflow en el nodo, y que esto produzca a una redistribución",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. A veces puede producirse underflow en un nodo, y que esto produzca una concatenación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Todas las respuestas son correctas",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Si el orden de un árbol B es 100, y al borrar un elemento quedan 48 en ese nodo:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Se produce underflow y necesariamente debe concatenarse con un adyacente hermano",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Se produce underflow y necesariamente debe redistribuirse con un adyacente hermano",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Se produce underflow y la operación a realizar depende del estado de los nodos adyacentes hermanos",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "d. No se produce underflow",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuáles de las siguientes definiciones pueden atribuirse a un árbol binario:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Es una estructura de datos lineal, en la cual cada nodo puede tener a lo sumo dos hijos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Es una estructura de datos no lineal, que siempre se encuentra balanceada",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Es una estructura de datos no lineal, que se encuentra balanceada en altura",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Es una estructura de datos no lineal, en la cual cada nodo puede tener un número de hijos ilimitado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e. Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol multicamino es:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Es una estructura de datos lineal, en la cual cada nodo puede tener un número indeterminado de hijos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Es una estructura de datos no lineal, que siempre se encuentra balanceada",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Es una estructura de datos no lineal, que se encuentra balanceada en altura",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Ninguna de las opciones anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La eficiencia promedio de búsqueda en un archivo a partir de disponer de un índice implementado con un árbol del tipo B (B, B* o B+):",
+            "respuestas": [
+                {
+                    "respuesta": "a. Orden lineal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Orden logarítmico",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "c. 1",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. No dispongo datos para contestar la pregunta",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Si el orden de un árbol B es 100, y al borrar un elemento quedan 49 en ese nodo:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Se produce underflow y necesariamente debe concatenarse con un adyacente hermano",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Se produce underflow y necesariamente debe redistribuirse con un adyacente hermano",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Se produce underflow y la operación a realizar depende del estado de los nodos adyacentes hermanos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. No se produce underflow",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Dado un árbol B+:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Todos sus nodos siempre tienen el registro completo del archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Se lo puede utilizar sólo para recorrer secuencialmente al archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Puede ser más ineficiente que un árbol B en la búsqueda de un elemento",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "d. Ninguna de las opciones anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol binario:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Tiene igual eficiencia para la búsqueda de información que un árbol B*",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Tiene igual eficiencia para la búsqueda de información que un árbol B* con prefijos simples",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Se desbalancean fácilmente",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "d. Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Dado un archivo de índice secundario implementado con el método de listas invertidas:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Es posible asociar sólo una cantidad acotada de claves primarias",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. En ocasiones se desperdicia espacio, ya que se debe reservar el mismo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. El método consiste en usar un archivo adicional de claves primarias que son referenciadas desde el índice secundario",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "d. Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol B+ de prefijos simples:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Se utiliza para ordenar físicamente un archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Se utiliza para lograr acceso rápido a la información de un archivo.",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Se utiliza para lograr acceso secuencial rápido a un archivo",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "d. Se utiliza para lograr acceso directo a los elementos de un archivo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "e. Ninguna de las anteriores.",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuales propiedades corresponden a un árbol B* de orden M?:",
+            "respuestas": [
+                {
+                    "respuesta": "a. La diferencia máxima de altura entre los dos subárboles cualesquiera que comparten raíz es 1",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Un nodo terminal tiene como mínimo [M/2]-1 claves",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Cada nodo puede tener como máximo M hijos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Un nodo no terminal que tiene K descendientes debe tener K-1 claves",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "e. Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un árbol AVL es:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Un árbol n-ario (n > 2)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Un árbol B",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Un árbol binario paginado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Un árbol binario balanceado en altura (BA(1))",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "e. Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Con respecto a un árbol B*:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Es más eficiente realizar una búsqueda sobre un árbol B que sobre un árbol B*",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. La altura puede ser inferior a la de un árbol B porque los elementos se distribuyen más eficientemente en los nodos",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "c. Permite acceder secuencialmente a los elementos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "d. Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Con respecto a los índices:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Al realizar bajas lógicas sobre un índice primario, es posible recuperar esos espacios con nuevas altas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Un índice es una estructura de datos (adicional al archivo de datos) que debe utilizar registros de longitud variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Un índice permite imponer orden en un archivo de datos, sin que éste realmente se reacomode",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "d. Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
         }
     ]
 }
