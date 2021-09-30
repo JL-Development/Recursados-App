@@ -1,0 +1,1149 @@
+{
+    "materiaId": 10,
+    "preguntas": [
+        {
+            "pregunta": "El problema del envejecimiento del software NO está en la operación, sino en los cambios que se introducen:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Los participantes del desarrollo de software son dos: el usuario y el desarrollador",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La ingeniería de software abarca solamente los procesos técnicos del desarrollo de algoritmos para desarrollo del software, el resto es realizado por otras disciplinas",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando se habla de 'requerimientos del cliente' estamos haciendo referencia a las 'necesidades del cliente'",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Los usuarios finales, ingenieros, gerentes y expertos del dominio son stakeholders",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El punto de vista del 'interactuador' representa las características y restricciones del dominio que influyen en los requerimientos del sistema",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La técnica de elicitación de entrevista es un método discreto",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La técnica de JRP (planeación conjunta de requerimientos) permite ahorrar tiempo, involucrar a los usuarios y obtener desarrollos más creativos",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La observación del ambiente de trabajo es una técnica de elicitación de recoolección de hechos a partir de la documentación existente",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Las preguntas cerradas en una entrevista permiten conocer muy poco al entrevistado",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La palabra requerimiento y requisito son sinónimos para el tema de requerimientos de software",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Los requerimientos 'no funcionales' describen lo que el sistema debe hacer, o incluso cómo NO debe comportarse",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Los requerimientos de usabilidad, eficiencia, rendimiento, espacio, fiabilidad, portabilidad se los define como requerimientos no funcionales 'externos'",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Los errores en los requerimientos nunca conducen a grandes costos si los errores se descubren más tarde",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Los desarrolladores deben tener los requerimientos con tantos stakeholders como sea posible, de esta forma se produce una técnica de validación de requerimientos denominada 'revisión informal de requerimientos'",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una técnica de especificación de requerimientos 'estática' es útil y adecuada cuando el tiempo no es un factor mayor en la operación del sistema",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una historia de usuario es una representación de un requisito de sw escrito en una o dos frases utilizando el lenguaje común del usuario",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La estimación de tiempo recomendada de cada historia de usuario debe ser entre unas 30 horas y como mínimo tres semanas",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Las historias de usuario deben ser idependientes unas de otras",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Casos de usos es un procesos de solo requerimientos no funcionales del sistema en término de los eventos que interactúan entre los usuarios y el sistema",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La técnica de especificación de Casos de Usos, permite estimar el alcance del proyecto y el esfuerzo a realizar",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El diagrama de casos de usos es una descripción de la interacción entre el actor y el sistema para realizar la funcionalidad",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Para que el Caso de Uso sea considerado un requerimiento debe estar acompañado de su respectivo escenario",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un 'actor' en los casos de uso representa solo a las personas",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una relación de 'extensión' en un caso de uso representa una relación entre un actor y un caso de uso en el que interactúan entre sí",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Los casos de uso que son extensibles sólo son iniciados por un caso de uso, un actor no puede iniciarlo",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La relación de 'dependencia' es una relación entre casos de uso que indica que un CU no puede realizarse hasta que se haya realizado otro CU",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El 'escenario' en un caso de uso describe la interacción del escenario y los eventos alternativos",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La descripción de los pasos en los escenarios puede contener solo un paso, para representar la interacción entre los componentes",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una máquina de estado finito tiene un solo estado inicial",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una máquina de estado finito describe al sistema como un conjunto de estados donde el sistema reacciona solamente a eventos internos",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En las técnicas de especificación estáticas se define 'CÓMO' se hace, no 'QUÉ'",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Las técnicas dinámicas describen el sistema en función de los cambios que ocurren a lo largo de tiempo",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La abstracción de datos es una técnica de especificación de requerimientos dinámica",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En la construcción del DTE, no se debe verificar la consistencia",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Las relaciones de recurrencia están definidas como técnica de especificación de requerimientos estática",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una máquina de estado sólo puede tener un estado final",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "No es necesario que en cada estado, el sistema responda a todas las condiciones posibles",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En la notación UML, si un estado es muy complejo, puede ser 'explotado' generando un subiagrama en su interior",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Las redes de petri son utilizadas para especificar sistemas de tiempo real en los que es necesario representar aspectos de concurrencia",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "En una RP las tareas que se realizan son ejecutadas en un orden programado",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En una RP no se pueden representar tareas que se realizan en paralelo",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El número de tokens asignados a un sitio es ilimitado",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La ejecución es controlada por el número y distribución de los tokens",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una red de petri se ejecuta disparando transiciones habilitadas",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Las transiciones indican la relación entre sitios y arcos y viceversa utilizando una flecha",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Las RP son sincrónicas y el orden en que ocurren los eventos es uno de los permitidos",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una vez que ocurre un evento, un token puede viajar de uno de los estados a otro",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "No se acepta que el disparo de una transición es instantáneo",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Las tablas de decisión son utilizadas para especificar sistemas de tiempo real en los que es necesario representar aspectos de concurrencia",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una tabla de decisión contradictoria tiene varias reglas que para las mismas condiciones especifican las mismas acciones",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Las tablas de decisión son utilizadas para especificar sistemas de lógica compleja",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una tabla de decisión describe el sistema como un conjunto de posibles condiciones, satisfechas en un momento dato, y acciones a ser tomadas como un resultado",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una tabla de decisión es redundante si tiene varias reglas que para las mismas condiciones especifican distintas acciones",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La cantidad de reglas de una tabla de decisión es N*2, donde N es la cantidad de condiciones",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Las columnas de la tala de decisión, excepto la primera que enumera las condiciones y las acciones, se corresponden con las reglas de dicha tabla",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Las condiciones de la tabla de decisión no necesariamente tienen que ser simples (corresponder a proposiciones atómicas de la lógica proposicional)",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Cada acción de la tabla debe ser simple, única, debe indicar una sola tarea o actividad",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Es posible que una tabla de decisión que tenga varias reglas con las mismas acciones se pueda reducir",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El modelo de prototipos es ideal utilizarlo para los usuarios que no determinarán sus requerimientos inicialmente",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "En los modelos de proceso, las restricciones puede aplicarse a una actividad, recurso o producto",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El modelo en espiral de Boehm trata de mejorar los ciclos de vida clásico y prototipo pero no incorpora objetivos de calidad y gestión de riesgos",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El modelo en fases se destaca por permitir iteraciones, vuelta atrás y finalizaciones rápidas",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una desventaja del modelo en cascada es que no existen resultados concretos hasta que todo está terminado",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un sistema de énfasis en los formatos de E/S más que en los detalles algorítmicos es candidato a ser modelado por un modelo de prototipo",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Los modelos prescriptivos describen la forma en que se realizan en la realidad los procesos",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El 'modelo de comportamiento' en DFD define las interfaces entre el sistema, y el ambiente donde el mismo se ejecuta",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El modelo en V demuestra cómo se relacionan las actividades de prueba con las de análisis y diseño",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una metodología ágil es aquella en la que se da prioridad a las tareas que dan resultados directos, y que reducen la burocracia tanto como sea posbile",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Uno de los valores de las metodologías ágiles es tener documentaciones completas",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Uno de los valores de las metodologías ágiles es: 'respuesta al cambio más que apegarse a una rigurosa planificación'",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "En scrum, el scrum master conoce y marca prioridades del proyecto o del producto",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En el desarrollo con metodologías ágiles, los usuarios y desarrolladores no deben trabajar juntos durante todo el proyecto",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El proceso de XP es iterativo e incremental",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El adjetivo 'dirigido' en MDD, a diferencia de 'basado', enfatiza que este paradigma asigna a los modelos un rol central y activo",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El Product Backlog es la lista que contiene toda la funcionalidad que el equipo se comprometió a desarrollar durante un Sprint determinado",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una de las prácticas del proceso de XP es 'Programación de a Pares'",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "En XP el Jefe de Proyecto tiene a estar en un segundo plano a medida que el equipo madura",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La calidad solo se puede definir como conformidad con los requisitos explícitos de un cliente",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Dentro de la visión holística de la calidad el componente 'Calidad de Servicios' incluye, por ejemplo, la calidad de las redes, y sistemas de software",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La calidad es intangible y por lo tanto no mensurable",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El objetivo de la ISO 90003 es proveer las especificaciones de cómo aplicar la ISO 9001 al desarrollo de software, implementación y mantenimiento",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "ISO 25000 provee una familia de normas relacionadas a la calidad dle producto de software",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La calidad del producto obtenido y la calidad del proceso de desarrollo son independientes",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La familia ISO 9000 es un conjunto de normas de 'gestión de la calidad' aplicables sólo a empresas de producción",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El CMMI posee una sola vista para su aplicación",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Dentro de la visión holística de la calidad el componente 'calidad de datos' está relacionado con los datos que ingresan al sistema de información",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El Sistema de Gestión de la Calidad, ayuda a implementar procesos simplificados y mejorar la eficiencia operacional",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        }
+    ]
+}
