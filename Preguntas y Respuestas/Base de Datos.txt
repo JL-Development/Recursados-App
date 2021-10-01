@@ -1,0 +1,700 @@
+{
+    "materiaId": 5,
+    "preguntas": [
+        {
+            "pregunta": "El proceso de diseño físico de BD:",
+            "respuestas": [
+                {
+                    "respuesta": "Es independiente del tipo de DBMS a utilizar",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es independiente del DBMS específico a utilizar",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Describe en detalle las estructuras de almacenamiento de datos específicas a utilizar",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una interrelación en el modelo conceptual:",
+            "respuestas": [
+                {
+                    "respuesta": "Debe tener atributos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Debe tener al menos un identificador",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Debe ser binaria",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando se transforma un esquema conceptual en un esquema lógico se deben:",
+            "respuestas": [
+                {
+                    "respuesta": "Eliminar atributos polivalentes",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Eliminar atributos opcionales",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Eliminar atributos derivados",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una relación recursiva en un esquema lógico:",
+            "respuestas": [
+                {
+                    "respuesta": "No puede contener atributos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Puede contener atributos compuestos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Puede contener atributos opcionales monovalentes",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Puede contener atributos opcionales polivalentes",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una relación 'Muchos a Muchos' en un esquema lógico', cuando se pasa a físico:",
+            "respuestas": [
+                {
+                    "respuesta": "Se convierte a tabla solo si tiene atributos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se convierte a tabla si la cardinalidad mínima es obligatoria",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Siempre se convierte a tabla",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Es decisión del diseñador de la base de datos si se convierte o no a tabla",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una clave foránea:",
+            "respuestas": [
+                {
+                    "respuesta": "Es aquella que es clave primaria en otra tabla",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Es aquella que es clave secundaria en otra tabla",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando se utiliza el método de bitácora con modificación diferida para asegurar la integridad de una BD:",
+            "respuestas": [
+                {
+                    "respuesta": "En la bitácora no es necesario registrar el valor viejo del dato a modificar",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "En la bitácora no es necesario registrar el valor nuevo del dato a modificar",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "En la bitácora no es necesario registrar el commit de la transacción",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Al usar el protocolo basado en HDE, cuáles de estas condiciones necesariamente se deben cumplir para que una transacción T1 pueda leer el dato D:",
+            "respuestas": [
+                {
+                    "respuesta": "HL(D) > HE(D)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "HE(D) > HL(D)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "HDE(T1) > HE(D)",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "HDE(T1) > HL(D)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una transacción en un entorno monousuario:",
+            "respuestas": [
+                {
+                    "respuesta": "Puede alcanzar el estado de inanición",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Utiliza el protocolo de bloqueo para evitar el estado de inanción",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Utiliza el protocolo de bloqueo para tratar la ocurrencia de deadlock",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Siempre finaliza con éxito",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La ejecución de dos transacciones en una ambiente monousuario:",
+            "respuestas": [
+                {
+                    "respuesta": "A veces puede producir deadlock",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "A veces puede producir inanción",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Necesita de un mecanismo de recuperación en caso de error",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Con respecto a la doble paginación como método de recuperación de integridad de una BD:",
+            "respuestas": [
+                {
+                    "respuesta": "Es necesario dividir la bitácora en páginas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Los ABORT se realizan automáticamente",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Utiliza dos tablas (actual y sombra) que se guardan en memoria principal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Con respecto a la doble paginación como método de recuperación de integridad de una BD:",
+            "respuestas": [
+                {
+                    "respuesta": "Es necesario dividir la bitácora en páginas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "En algún momento puede haber mas de una copia de una página determinada",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Utiliza dos tablas (actual y sombra) que se guardan en memoria principal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La ejecución aislada de la transacción conserva el estado consistente de la BD, corresponde con la propiedad de:",
+            "respuestas": [
+                {
+                    "respuesta": "Atomicidad",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Concurrencia",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Aislamiento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Durabilidad",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La ejecución aislada de la transacción conserva el estado consistente de la BD, corresponde con la propiedad de:",
+            "respuestas": [
+                {
+                    "respuesta": "Atomicidad",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Concurrencia",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Aislamiento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Durabilidad",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La función de agregación COUNT de SQL:",
+            "respuestas": [
+                {
+                    "respuesta": "Puede usarse dentro de la cláusula SELECT",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Puede usarse dentro de la cláusula WHERE",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Puede usarse dentro de la cláusula GROUP BY",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La función de agregación COUNT de SQL:",
+            "respuestas": [
+                {
+                    "respuesta": "Puede usarse dentro de la cláusula WHERE",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Puede usarse dentro de la cláusula GROUP BY",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Puede usarse dentro de la cláusula HAVING",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El producto cartesiano del álgebra relacional entre dos tablas :",
+            "respuestas": [
+                {
+                    "respuesta": "Relaciona todas las tuplas de B con todas las tuplas de A",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Relaciona todas las tuplas de B con todas las tuplas de A, solo si un atributo en común entre A y B coincide en su valor",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Relaciona todas las tuplas de B con todas las tuplas de A, solo si todos los atributos en comun entre A y B coinciden en su valor",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "En AR, con respecto al producto natural (siendo T y S dos tablas de una BD):",
+            "respuestas": [
+                {
+                    "respuesta": "El tiempo teórico de respuesta de T|x|S y S|x|T es siempre el mismo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Genera el mismo resultado si se hace T|x|S que S|x|T",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "En AR, con respecto al producto natural (siendo T y S dos tablas de una BD):",
+            "respuestas": [
+                {
+                    "respuesta": "El tiempo teórico de respuesta de T|x|S y S|x|T es siempre el mismo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Una de las diferencias con el producto theta, es que este mantiene las columnas repetidas y el producto natural no",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Dada la tabla: Empleados(nroEmp, nombreEmp, dni, tel), cual es válida?:",
+            "respuestas": [
+                {
+                    "respuesta": "CREATE VIEW vistaEmpleados AS (SELECT nroEmp, nombreEmp FROM Empleados)",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "DELETE Empleados WHERE nroEmp=1204",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "INSERT INTO Empleados VALUES(2050, 'Carlos Gonzalez', 38383838)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una transacción que alcanza el estado ABORTADA:",
+            "respuestas": [
+                {
+                    "respuesta": "Puede haber cometido parcialmente",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Puede haber cometido",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una transacción que alcanza el estado ABORTADA:",
+            "respuestas": [
+                {
+                    "respuesta": "Tiene que haber fallado",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Puede haber cometido",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "En un entorno concurrente, y si las transacciones involucradas son correctas:",
+            "respuestas": [
+                {
+                    "respuesta": "La ejecución de las transacciones en cualquier orden serial es correcta",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Cualquier ejecución intercalada dejará un estado inconsistente",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "En un entorno concurrente, y si las transacciones involucradas son correctas:",
+            "respuestas": [
+                {
+                    "respuesta": "Una ejecución intercalada será correcta si el estado de la BD resultante es el mismo que el obtenido por alguna ejecución serial",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Cualquier ejecución intercalada dejará un estado inconsistente",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El protocolo de bloqueo de dos fases:",
+            "respuestas": [
+                {
+                    "respuesta": "En la fase de crecimiento es posible pedir bloqueos, pero no liberarlos",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "En la fase de decrecimiento sólo es posible liberar bloqueos",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El protocolo de bloqueo de dos fases:",
+            "respuestas": [
+                {
+                    "respuesta": "Permite ejecutar transacciones concurrentes sin que se genere deadlock",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Permite ejecutar transacciones concurrentes sin que se genere inconsistencias",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En un entorno concurrente en donde se utiliza el protocolo basado en bitácora:",
+            "respuestas": [
+                {
+                    "respuesta": "Se requiere del uso de checkpoints, de otra forma sería imposible recuperarse ante un error",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se requiere del uso de checkpoints con lista de transacciones activas, de otra forma sería imposible recuperarse ante un error",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El fallo de una transacción puede llevar a un retroceso en cascada de otras transacciones",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El proceso de diseño conceptual de BD:",
+            "respuestas": [
+                {
+                    "respuesta": "Describe en detalle las estructuras de almacenamiento de datos especificas a utilizar",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es independiente del tipo de DBMS a utilizar",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Es dependiente del DBMS específico a utilizar",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El proceso de diseño conceptual de BD:",
+            "respuestas": [
+                {
+                    "respuesta": "Describe en detalle las estructuras de almacenamiento de datos especificas a utilizar",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es dependiente del tipo de DBMS a utilizar",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es independiente del DBMS específico a utilizar",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un atributo compuesto en el model conceptual:",
+            "respuestas": [
+                {
+                    "respuesta": "Puede ser obligatorio",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Debe ser monovalente",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Debe ser obligatorio",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un atributo compuesto en el model conceptual:",
+            "respuestas": [
+                {
+                    "respuesta": "Debe ser obligatorio",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Puede ser monovalente",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Debe ser obligatorio",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La conversión al modelo lógico de una jerarquía con cobertura parcial superpuesta, se puede resolver:",
+            "respuestas": [
+                {
+                    "respuesta": "Matando al padre y dejando solo a los hijos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Dejando todo con una relacion 'ES UN' entre hijos y padres",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La conversión al modelo lógico de una jerarquía con cobertura parcial superpuesta, se puede resolver:",
+            "respuestas": [
+                {
+                    "respuesta": "Matando al padre y dejando solo a los hijos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Matando a los hijos y dejando solo al padre",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Si una tabla está en 3FN:",
+            "respuestas": [
+                {
+                    "respuesta": "No existen dependencias parciales",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Está en BCNF",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No está en 1NF",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Si una tabla está en 3FN:",
+            "respuestas": [
+                {
+                    "respuesta": "Existen dependencias parciales",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Está en BCNF",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No está en 1NF",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No existen dependencias transitivas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": true
+                }
+            ]
+        }
+    ]
+}
