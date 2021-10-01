@@ -1,0 +1,124 @@
+{
+    "materiaId": ,
+    "preguntas": [
+        {
+            "pregunta": "Creamos clases para:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Para indicar el codigo que se ejecutara cada vez que una clase es invocada",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Representar la estructura y el comportamiento de todos los objetos que son instancias de la clase ",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "c. Para poder encapsular la estructura de los objetos de forma que no sea accesible",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando un objeto a de la clase A recibe un mensaje m:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Busca en A el método correspondiente para responder a m y lo ejecuta",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "b. Le pide a la clase que ejecute ese código en la misma clase. La clase devuelve el resultado",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Ejecuta un procedimiento interno que determina que hacer con el mensaje ",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Los objetos...:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Tienen estructura y comportamiento. El comportamiento indica que mensajes pueden entender y la estructura está especificada por variables de instancia",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "b. Son estructuras de tipo registro que pueden invocar procedimientos llamados metodos cuando lo requieren",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Empaquetan el conjunto de procedimientos necesarios para realizar una acción",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Los objetos tienen variables de instancia que permiten caracterizar su estructura:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Los objetos acceden a las variables de otros objetos en una forma semejante a los registros",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Los procedimientos que escribimos pueden estar autorizados a acceder a datos de otros procedimientos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Las variables de instancia están encapsuladas y solo son accesibles por los métodos que ejecuta el objeto. Para acceder una variable del objeto A, necesitamos enviarle un mensaje",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "A los objetos de nuestra aplicación los crean...:",
+            "respuestas": [
+                {
+                    "respuesta": "a. Un conjunto de procedimientos especiales que se ejecutan al comenzar la aplicación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. Otros objetos de acuerdo a la lógica de la aplicación",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "c. Los objetos que pertenecen a una clase especial que controla el flujo del codigo",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando un objeto o recibe un mensaje m():",
+            "respuestas": [
+                {
+                    "respuesta": "a. Decide que método ejecutar chequeando los que tienen nombres iguales en la jerarquía",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "b. En función del tipo del objeto o se decide que hacer",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. Si encuentra el método m() correspondiente en su clase, lo ejecuta",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Decimos que en un lenguaje de programación orientado a objetos existe polimorfismo cuando:",
+            "respuestas": [
+                {
+                    "respuesta": "a. el mensaje m() puede ser recibido por objetos de clases diferentes",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "b. puedo elegir diferentes implementaciones del mismo método m() según me interese",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "c. un objeto o puede mandar mensajes diferentes a otros objetos",
+                    "es_verdadera": false
+                }
+            ]
+        }
+    ]
+}
