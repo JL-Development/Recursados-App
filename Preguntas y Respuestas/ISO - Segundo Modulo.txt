@@ -159,6 +159,201 @@
                     "es_verdadera": false
                 }
             ]
+        },
+        {
+            "pregunta": "En Unix System V, al crear un nuevo directorio, el I-NODO correspondiente al mismo no tendrá bloques de datos asignados:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En la técnica de buffer cacher vista, los buffers están siempre enladazados a la misma hash queue, independientemente del bloque de datos cargado en dicho buffer:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La selección de una página víctima con los bits R=1 y M=1 resulta óptima frente a una página cuyos valores son R=0 y M=0:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Para poder utilizar la técnica de PFF el SO delegará en el HW el cálculo de la Taza de Fallo de Página el SO delegará en el HW el cálculo de la Taza de Fallo de Página de cada proceso:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En un sistema con hiperpaginación aumentar el grado de multiprogramación ayudará a que mejore la productividad de la CPU:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En Unix System V, para poder abrir un archivo, por ejemplo /var/log/milog, se deberá acceder a los I-NODOS de cada uno de los directorios que participan del path:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El control de la taza de fallos de páginas es favorecido por una técnica de reemplazo global:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una PTE con bit V=0 nunca utilizará el lugar asignado para indicar el marco de memoria donde dicha página se aloja:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un page fault se deberá resolver completamente antes de producirse un cambio de contexto a otro proceso:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una alta tasa de fallos de paginas de un proceso indica que el mismo require mas marcos:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La técnica de administración de espacio de disco indexado puede producir fragmentación externa:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Todo fallo de página generará una operación de escritura de una página en el área de intercambio y otra operación de la lectura de la página que generó el fallo:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando se utiliza una tabla de paginas invertida para la gestion de la memoria existe una tabla invertida para cada uno de los procesos:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La página que contiene el código del SO que gestiona los fallos de página puede ser seleccionada como víctima:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En el modelo del Working Set la elección de un delta demasiado pequeño causará que en un momento dado, los procesos no cuenten con todas las paginas necesarias:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
         }
     ]
 }

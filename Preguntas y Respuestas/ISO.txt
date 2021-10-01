@@ -1,5 +1,5 @@
 {
-    "materiaId": 6,
+    "materiaId": 4,
     "preguntas": [
         {
             "pregunta": "En las distribuciones actuales de GNU Linux, un administrador puede conocer las passwords de los usuarios ya que el mismo puede visualizar el contenido de los archivos /etc/password y /etc/shadow",
@@ -1101,6 +1101,360 @@
         },
         {
             "pregunta": "No tiene sentido que el medium term scheduller pase un proceso del estado 'Bloqueado Swap-Out' al estado 'Bloqueado':",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La PCB es una estructura que contiene datos asociadas a:",
+            "respuestas": [
+                {
+                    "respuesta": "Un programa",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Un proceso",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Un proceso en estado listo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Un proceso ejecutando en modo supervisor",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Quien pasa a un proceso de nuevo a listo es:",
+            "respuestas": [
+                {
+                    "respuesta": "Short term scheduler",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Medium term scheduler",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Long term scheduler",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Loader",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En el algoritmo VRR al elegir el próximo proceso a tomar la CPU tendrá mas prioridad:",
+            "respuestas": [
+                {
+                    "respuesta": "El proceso con mayor prioridad",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El proceso que hace más tiempo que está en el sistema",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El proceso que está primero en la cola de listos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El proceso que terminó una E/S",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En un sistema con paginación y memoria virtual:",
+            "respuestas": [
+                {
+                    "respuesta": "Hay un marco por cada página en todo momento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Los marcos y las páginas son del mismo tamaño",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "El número de marco es parte de la dirección lógica",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El número de marco no es parte de la dirección física",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Se tiene un sistema con memoria virtual y direciones de 16bits, donde cada direccion hace referencia a 1 byte. Cuál es verdadera según el tamaño máximo de un proceso:",
+            "respuestas": [
+                {
+                    "respuesta": "Un proceso puede ser tan grande como la memoria principal del equipo que lo ejecuta",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Un proceso puede ser de a lo sumo 2^16 bytes",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Un proceso puede ser de a lo sumo (2^16)*4bytes",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Dado un espacio lógico de 16 páginas de 512bytes cada una:",
+            "respuestas": [
+                {
+                    "respuesta": "La memoria lógica del sistema es de (2^4)*(2^9)+1 bytes",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se usarán 9 bits para el desplazamiento",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "La memoria lógica del sistema es de 2^14 bytes",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se usarán 512 bits para el desplazamiento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El sistema tendrá 2^16 marcos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El equipo tiene (2^16)*(2^9) bytes de memoria principal",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Dado un espacio lógico de 16 páginas de 512bytes cada una:",
+            "respuestas": [
+                {
+                    "respuesta": "La memoria lógica del sistema es de (2^4)*(2^9) bytes",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Se usarán 10 bits para el desplazamiento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "La memoria lógica del sistema es de 2^14 bytes",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se usarán 512 bits para el desplazamiento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El sistema tendrá 2^16 marcos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El equipo tiene (2^16)*(2^9) bytes de memoria principal",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "En Unix System V, al crear un nuevo directorio, el I-NODO correspondiente al mismo no tendrá bloques de datos asignados:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En la técnica de buffer cacher vista, los buffers están siempre enladazados a la misma hash queue, independientemente del bloque de datos cargado en dicho buffer:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La selección de una página víctima con los bits R=1 y M=1 resulta óptima frente a una página cuyos valores son R=0 y M=0:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Para poder utilizar la técnica de PFF el SO delegará en el HW el cálculo de la Taza de Fallo de Página el SO delegará en el HW el cálculo de la Taza de Fallo de Página de cada proceso:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En un sistema con hiperpaginación aumentar el grado de multiprogramación ayudará a que mejore la productividad de la CPU:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En Unix System V, para poder abrir un archivo, por ejemplo /var/log/milog, se deberá acceder a los I-NODOS de cada uno de los directorios que participan del path:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El control de la taza de fallos de páginas es favorecido por una técnica de reemplazo global:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una PTE con bit V=0 nunca utilizará el lugar asignado para indicar el marco de memoria donde dicha página se aloja:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Un page fault se deberá resolver completamente antes de producirse un cambio de contexto a otro proceso:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Una alta tasa de fallos de paginas de un proceso indica que el mismo require mas marcos:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La técnica de administración de espacio de disco indexado puede producir fragmentación externa:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Todo fallo de página generará una operación de escritura de una página en el área de intercambio y otra operación de la lectura de la página que generó el fallo:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando se utiliza una tabla de paginas invertida para la gestion de la memoria existe una tabla invertida para cada uno de los procesos:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La página que contiene el código del SO que gestiona los fallos de página puede ser seleccionada como víctima:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En el modelo del Working Set la elección de un delta demasiado pequeño causará que en un momento dado, los procesos no cuenten con todas las paginas necesarias:",
             "respuestas": [
                 {
                     "respuesta": "Verdadero",
