@@ -131,27 +131,34 @@
                 }
             ]
         },
-        , //------------------HASTA ACA SUBI
         {
-            "pregunta": ":",
+            "pregunta": "Dado un espacio lógico de 16 páginas de 512bytes cada una:",
             "respuestas": [
                 {
-                    "respuesta": "",
-                    "es_verdadera": false
-                },
-                {
-                    "respuesta": "r2",
+                    "respuesta": "La memoria lógica del sistema es de (2^4)*(2^9) bytes",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "r3",
+                    "respuesta": "Se usarán 10 bits para el desplazamiento",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "r4",
+                    "respuesta": "La memoria lógica del sistema es de 2^14 bytes",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se usarán 512 bits para el desplazamiento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El sistema tendrá 2^16 marcos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El equipo tiene (2^16)*(2^9) bytes de memoria principal",
                     "es_verdadera": false
                 }
             ]
-        },
+        }
     ]
 }

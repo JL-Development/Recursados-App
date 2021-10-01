@@ -206,5 +206,292 @@
                 }
             ]
         },
+        {
+            "pregunta": "Cual de las siguientes opciones es correcta acerca del uso de empaquetadores y compresores en GNU/Linux?:",
+            "respuestas": [
+                {
+                    "respuesta": "Para empaquetar se utiliza el comando tar",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "No existe el concepto de empaquetamiento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El comando gzip permite comprimir varios archivos al mismo tiempo, ejecutando gzip arch arch2 archn",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cual de las siguientes opciones es correcta acerca del uso de empaquetadores y compresores en GNU/Linux?:",
+            "respuestas": [
+                {
+                    "respuesta": "Uno de los comandos que permiten comprimir un archivo es el gzip",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "No existe el concepto de empaquetamiento",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El comando gzip permite comprimir varios archivos al mismo tiempo, ejecutando gzip arch arch2 archn",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cual de las siguientes opciones es correcta acerca del uso de variables en Shell Scripting?:",
+            "respuestas": [
+                {
+                    "respuesta": "APELLIDO = 'sanchez'",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "echo APELLIDO",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "echo ${DIRECCION}",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Cual de las siguientes opciones es correcta acerca del uso de variables en Shell Scripting?:",
+            "respuestas": [
+                {
+                    "respuesta": "var NOMBRE='pepe'",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "echo $NOMBRE",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "DIRECCION='56 nro 111'",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cual de las siguientes opciones es correcta acerca de Shell Scripting?:",
+            "respuestas": [
+                {
+                    "respuesta": "Es un archivo de texto que contiene sentencias del interprete de comandos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Por defecto, el alcance de una variable es local",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Las líneas que comienzan con % son comentarios",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "La variable $* contiene el número de parámetros pasados al script al momento de su invocación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "La función expr permite evaluar expresiones condicionales",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Cual de las siguientes opciones es correcta acerca de la instalación de Sistemas Operativos?:",
+            "respuestas": [
+                {
+                    "respuesta": "En un mismo equipo pueden coexistir distintos S.O para diferentes arquitecturas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es posible tener mas de un kernel en ejecución a la vez",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Grub permite seleccionar entre aquellos S.O instalados en el sistema",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "En una PC se puede instalar la distribución de GNU/Linux de cualquier arquitectura",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cual de las siguientes opciones es correcta acerca de GNU/Linux?:",
+            "respuestas": [
+                {
+                    "respuesta": "Solo algunos dispositivos se representan como archivos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Su kernel está escrito mayormente en C++",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Todos los programas que corren sobre GNU/Linux son libres",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "La imagen del kernel se encuentran siempre en /var",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cual de las siguientes opciones es correcta acerca del arranque de una PC?:",
+            "respuestas": [
+                {
+                    "respuesta": "El orden de booteo es: 1)Se ejecuta el codigo de la BIOS 2)El hardware lee el gestor de arranque 3)Se carga el kernel 4)Se carga el gestor de arranque",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El firmware del bios facilita la lectura de file systems",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "UEFI soporta que el kernel esté encriptado",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cual de las siguientes opciones es correcta acerca del arranque de una PC?:",
+            "respuestas": [
+                {
+                    "respuesta": "UEFI impide que el sistema arranque si la firma del kernel no corresponde",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Mediante el comando init el usuario root puede reiniciar el proceso init que es el padre de todos los procesos",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "UEFI soporta que el kernel esté encriptado",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cual de las siguientes opciones es correcta acerca del arranque del kernel?:",
+            "respuestas": [
+                {
+                    "respuesta": "Su arquitectura es monolítica pero permite cargar/descargar funcionalidad dinámicamente",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "El comando insmod permite eliminar un módulo del kernel",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El comando rmmod permite agregar un módulo al kernel",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cual de las siguientes opciones es correcta acerca del arranque del kernel?:",
+            "respuestas": [
+                {
+                    "respuesta": "Se ejecuta en modo usuario",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El comando insmod permite agregar un módulo al kernel",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "El comando rmmod permite modificar un módulo del kernel",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Qué tipo de licencia posee GNU Linux?:",
+            "respuestas": [
+                {
+                    "respuesta": "FSF",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "GPL",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Propietaria",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Apache",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Todas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cual de las siguientes opciones es correcta acerca de archivos de configuración?:",
+            "respuestas": [
+                {
+                    "respuesta": "En el archivo /etc/fstab se almacena información acerca del montaje de las particiones",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "El archivo /etc/inittab puede ser editado por cualquier usuario",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "En el archivo /etc/groups se almacna información sobre usuarios y grupos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El archivo /etc/passwd tiene las contraseñas de los usuarios",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cual de las siguientes opciones es correcta acerca de manejo de procesos?:",
+            "respuestas": [
+                {
+                    "respuesta": "Cada proceso es identificado unívocamente a través de su PID",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Si al ejecutarlo en la línea de ejecución se le agrega && al final se lo ejecuta en background",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Mediante el pipi | podemos redirigir la salida de un proceso a un archivo",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cual de las siguientes opciones es correcta acerca de manejo de procesos?:",
+            "respuestas": [
+                {
+                    "respuesta": "Por defecto tiene 3 archivos abiertos",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Si al ejecutarlo en la línea de ejecución se le agrega && al final se lo ejecuta en background",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Mediante el pipi | podemos redirigir la salida de un proceso a un archivo",
+                    "es_verdadera": false
+                }
+            ]
+        }
     ]
 }
