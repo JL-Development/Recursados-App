@@ -17,7 +17,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -38,7 +38,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -63,11 +63,11 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Algunas de las anteriores",
+                    "respuesta": "Algunas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -92,7 +92,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Algunas de las anteriores",
+                    "respuesta": "Algunas",
                     "es_verdadera": false
                 }
             ]
@@ -117,11 +117,11 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Todas las anteriores",
+                    "respuesta": "Todas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Algunas de las anteriores",
+                    "respuesta": "Algunas",
                     "es_verdadera": true
                 }
             ]
@@ -146,7 +146,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Algunas de las anteriores",
+                    "respuesta": "Algunas",
                     "es_verdadera": false
                 }
             ]
@@ -171,7 +171,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Algunas de las anteriores",
+                    "respuesta": "Algunas",
                     "es_verdadera": false
                 }
             ]
@@ -200,7 +200,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Algunas de las anteriores",
+                    "respuesta": "Algunas",
                     "es_verdadera": false
                 }
             ]
@@ -225,7 +225,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Algunas de las anteriores",
+                    "respuesta": "Algunas",
                     "es_verdadera": false
                 }
             ]
@@ -317,7 +317,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Todas las anteriores",
+                    "respuesta": "Todas",
                     "es_verdadera": true
                 }
             ]
@@ -338,7 +338,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -359,7 +359,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -581,15 +581,15 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Todas las anteriores",
+                    "respuesta": " Todas",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": " Algunas de las anteriores",
+                    "respuesta": " Algunas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -614,7 +614,7 @@
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]

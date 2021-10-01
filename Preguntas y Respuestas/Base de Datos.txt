@@ -17,7 +17,7 @@
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -38,7 +38,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -59,7 +59,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -84,7 +84,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -109,7 +109,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -143,7 +143,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -168,7 +168,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -193,7 +193,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -214,7 +214,7 @@
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -235,7 +235,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -256,7 +256,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -281,7 +281,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -306,7 +306,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -327,7 +327,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -348,7 +348,7 @@
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -369,7 +369,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -386,7 +386,7 @@
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -403,7 +403,7 @@
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -424,7 +424,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -441,7 +441,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -458,7 +458,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -475,7 +475,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -492,7 +492,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -539,7 +539,7 @@
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -560,7 +560,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -581,7 +581,7 @@
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -602,7 +602,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -623,7 +623,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -691,7 +691,7 @@
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]

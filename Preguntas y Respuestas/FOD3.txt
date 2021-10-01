@@ -21,7 +21,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -46,7 +46,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -117,7 +117,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -142,7 +142,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -171,11 +171,11 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Algunas de las anteriores",
+                    "respuesta": " Algunas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -208,11 +208,11 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Algunas de las anteriores",
+                    "respuesta": " Algunas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -245,7 +245,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Todas las anteriores",
+                    "respuesta": " Todas",
                     "es_verdadera": true
                 }
             ]
@@ -270,11 +270,11 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Algunas de las anteriores",
+                    "respuesta": " Algunas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -295,7 +295,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -320,7 +320,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -341,7 +341,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -362,7 +362,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -591,7 +591,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " todas las anteriores",
+                    "respuesta": " todas",
                     "es_verdadera": true
                 }
             ]
@@ -754,7 +754,7 @@
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -783,11 +783,11 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Todas las anteriores",
+                    "respuesta": " Todas",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -796,23 +796,23 @@
             "pregunta": "Un árbol B de orden 200:",
             "respuestas": [
                 {
-                    "respuesta": "a. En una hoja, puede tener hasta 99 elementos",
+                    "respuesta": " En una hoja, puede tener hasta 99 elementos",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. En una hoja, puede tener más de 99 elementos",
+                    "respuesta": " En una hoja, puede tener más de 99 elementos",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "c. En una hoja, puede tener menos de 99 elementos",
+                    "respuesta": " En una hoja, puede tener menos de 99 elementos",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. La raíz siempre tiene hijos",
+                    "respuesta": " La raíz siempre tiene hijos",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "e. La raíz tiene hijos si el árbol tiene más de 50 elementos",
+                    "respuesta": " La raíz tiene hijos si el árbol tiene más de 50 elementos",
                     "es_verdadera": false
                 }
             ]
@@ -821,19 +821,19 @@
             "pregunta": "Un árbol B+ de prefijos simples:",
             "respuestas": [
                 {
-                    "respuesta": "a. Se utiliza para representar un índice de un archivo",
+                    "respuesta": " Se utiliza para representar un índice de un archivo",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Se utiliza para lograr acceso secuencial rápido a un archivo",
+                    "respuesta": " Se utiliza para lograr acceso secuencial rápido a un archivo",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Optimiza el espacio requerido para almacenar el árbol",
+                    "respuesta": " Optimiza el espacio requerido para almacenar el árbol",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Todas las anteriores son correctas",
+                    "respuesta": " Todas son correctas",
                     "es_verdadera": true
                 }
             ]
@@ -842,19 +842,19 @@
             "pregunta": "Los árboles B*:",
             "respuestas": [
                 {
-                    "respuesta": "a. Permiten localizar un registro de manera más eficiente que un árbol B, porque además permiten una búsqueda secuencial eficiente",
+                    "respuesta": " Permiten localizar un registro de manera más eficiente que un árbol B, porque además permiten una búsqueda secuencial eficiente",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Permiten localizar un registro de manera más eficiente que un árbol B, cuando ambos árboles tienen un solo nodo respectivamente",
+                    "respuesta": " Permiten localizar un registro de manera más eficiente que un árbol B, cuando ambos árboles tienen un solo nodo respectivamente",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Completan los nodos en al menos 2/3 de su capacidad",
+                    "respuesta": " Completan los nodos en al menos 2/3 de su capacidad",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "d. Los nodos terminales no aparecen en igual nivel",
+                    "respuesta": " Los nodos terminales no aparecen en igual nivel",
                     "es_verdadera": false
                 }
             ]
@@ -863,19 +863,19 @@
             "pregunta": "Dado un árbol B+:",
             "respuestas": [
                 {
-                    "respuesta": "a. Todos sus nodos siempre tienen claves del archivo",
+                    "respuesta": " Todos sus nodos siempre tienen claves del archivo",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Se lo puede utilizar sólo para recorrer secuencialmente al archivo",
+                    "respuesta": " Se lo puede utilizar sólo para recorrer secuencialmente al archivo",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Es más eficiente que un árbol B en la búsqueda de un elemento",
+                    "respuesta": " Es más eficiente que un árbol B en la búsqueda de un elemento",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Ninguna de las opciones anteriores",
+                    "respuesta": " Ninguna de las opciones",
                     "es_verdadera": true
                 }
             ]
@@ -884,19 +884,19 @@
             "pregunta": "Cuáles de las siguientes definiciones pueden atribuirse a un árbol binario:",
             "respuestas": [
                 {
-                    "respuesta": "a. Es una estructura de datos no lineal, en la cual cada nodo puede tener a lo sumo dos hijos",
+                    "respuesta": " Es una estructura de datos no lineal, en la cual cada nodo puede tener a lo sumo dos hijos",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "b. Es una estructura de datos no lineal, que siempre se encuentra balanceada",
+                    "respuesta": " Es una estructura de datos no lineal, que siempre se encuentra balanceada",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Es una estructura de datos no lineal, que se encuentra balanceada en altura",
+                    "respuesta": " Es una estructura de datos no lineal, que se encuentra balanceada en altura",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Es una estructura de datos no lineal, en la cual cada nodo puede tener un número de hijos ilimitado",
+                    "respuesta": " Es una estructura de datos no lineal, en la cual cada nodo puede tener un número de hijos ilimitado",
                     "es_verdadera": false
                 }
             ]
@@ -905,19 +905,19 @@
             "pregunta": "Un árbol multicamino es:",
             "respuestas": [
                 {
-                    "respuesta": "a. Es una estructura de datos no lineal, en la cual cada nodo puede tener un número determinado de hijos",
+                    "respuesta": " Es una estructura de datos no lineal, en la cual cada nodo puede tener un número determinado de hijos",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "b. Es una estructura de datos no lineal, que siempre se encuentra balanceada",
+                    "respuesta": " Es una estructura de datos no lineal, que siempre se encuentra balanceada",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Es una estructura de datos no lineal, que se encuentra balanceada en altura",
+                    "respuesta": " Es una estructura de datos no lineal, que se encuentra balanceada en altura",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Es una estructura de datos no lineal, en la cual cada nodo puede tener a lo sumo 5 hijos",
+                    "respuesta": " Es una estructura de datos no lineal, en la cual cada nodo puede tener a lo sumo 5 hijos",
                     "es_verdadera": false
                 }
             ]
@@ -926,19 +926,19 @@
             "pregunta": "Cuales propiedades corresponden a un árbol B:",
             "respuestas": [
                 {
-                    "respuesta": "a. Cada nodo puede tener como máximo M descendientes, siendo M el orden del árbol",
+                    "respuesta": " Cada nodo puede tener como máximo M descendientes, siendo M el orden del árbol",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Un nodo que tiene x descendientes debe tener x-1 claves",
+                    "respuesta": " Un nodo que tiene x descendientes debe tener x-1 claves",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Está siempre balanceado, sin importar los elementos que se inserten",
+                    "respuesta": " Está siempre balanceado, sin importar los elementos que se inserten",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Todas las propiedades anteriores corresponden a un árbol B",
+                    "respuesta": " Todas las propiedades corresponden a un árbol B",
                     "es_verdadera": true
                 }
             ]
@@ -947,19 +947,19 @@
             "pregunta": "Un árbol B*:",
             "respuestas": [
                 {
-                    "respuesta": "a. Es más eficiente en el algoritmo de búsqueda que un árbol b",
+                    "respuesta": " Es más eficiente en el algoritmo de búsqueda que un árbol b",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. La altura puede ser inferior a la de un árbol B porque los elementos se distribuyen más eficientemente en los nodos",
+                    "respuesta": " La altura puede ser inferior a la de un árbol B porque los elementos se distribuyen más eficientemente en los nodos",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "c. La altura puede ser superior a la de un árbol B porque los elementos se distribuyen más eficientemente en los nodos",
+                    "respuesta": " La altura puede ser superior a la de un árbol B porque los elementos se distribuyen más eficientemente en los nodos",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Permite acceder secuencialmente a los elementos del árbol",
+                    "respuesta": " Permite acceder secuencialmente a los elementos del árbol",
                     "es_verdadera": false
                 }
             ]
@@ -968,19 +968,19 @@
             "pregunta": "Cuando se borra un elemento de un nodo en un árbol B:",
             "respuestas": [
                 {
-                    "respuesta": "a. El elemento debe estar en un nodo terminal, si no lo está debe ser llevado a un nodo terminal",
+                    "respuesta": " El elemento debe estar en un nodo terminal, si no lo está debe ser llevado a un nodo terminal",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. A veces puede producirse underflow en el nodo, y que esto produzca a una redistribución",
+                    "respuesta": " A veces puede producirse underflow en el nodo, y que esto produzca a una redistribución",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. A veces puede producirse underflow en un nodo, y que esto produzca una concatenación",
+                    "respuesta": " A veces puede producirse underflow en un nodo, y que esto produzca una concatenación",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Todas las respuestas son correctas",
+                    "respuesta": " Todas las respuestas son correctas",
                     "es_verdadera": true
                 }
             ]
@@ -989,19 +989,19 @@
             "pregunta": "Si el orden de un árbol B es 100, y al borrar un elemento quedan 48 en ese nodo:",
             "respuestas": [
                 {
-                    "respuesta": "a. Se produce underflow y necesariamente debe concatenarse con un adyacente hermano",
+                    "respuesta": " Se produce underflow y necesariamente debe concatenarse con un adyacente hermano",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Se produce underflow y necesariamente debe redistribuirse con un adyacente hermano",
+                    "respuesta": " Se produce underflow y necesariamente debe redistribuirse con un adyacente hermano",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Se produce underflow y la operación a realizar depende del estado de los nodos adyacentes hermanos",
+                    "respuesta": " Se produce underflow y la operación a realizar depende del estado de los nodos adyacentes hermanos",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "d. No se produce underflow",
+                    "respuesta": " No se produce underflow",
                     "es_verdadera": false
                 }
             ]
@@ -1010,23 +1010,23 @@
             "pregunta": "Cuáles de las siguientes definiciones pueden atribuirse a un árbol binario:",
             "respuestas": [
                 {
-                    "respuesta": "a. Es una estructura de datos lineal, en la cual cada nodo puede tener a lo sumo dos hijos",
+                    "respuesta": " Es una estructura de datos lineal, en la cual cada nodo puede tener a lo sumo dos hijos",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Es una estructura de datos no lineal, que siempre se encuentra balanceada",
+                    "respuesta": " Es una estructura de datos no lineal, que siempre se encuentra balanceada",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Es una estructura de datos no lineal, que se encuentra balanceada en altura",
+                    "respuesta": " Es una estructura de datos no lineal, que se encuentra balanceada en altura",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Es una estructura de datos no lineal, en la cual cada nodo puede tener un número de hijos ilimitado",
+                    "respuesta": " Es una estructura de datos no lineal, en la cual cada nodo puede tener un número de hijos ilimitado",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "e. Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -1035,19 +1035,19 @@
             "pregunta": "Un árbol multicamino es:",
             "respuestas": [
                 {
-                    "respuesta": "a. Es una estructura de datos lineal, en la cual cada nodo puede tener un número indeterminado de hijos",
+                    "respuesta": " Es una estructura de datos lineal, en la cual cada nodo puede tener un número indeterminado de hijos",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Es una estructura de datos no lineal, que siempre se encuentra balanceada",
+                    "respuesta": " Es una estructura de datos no lineal, que siempre se encuentra balanceada",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Es una estructura de datos no lineal, que se encuentra balanceada en altura",
+                    "respuesta": " Es una estructura de datos no lineal, que se encuentra balanceada en altura",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Ninguna de las opciones anteriores",
+                    "respuesta": " Ninguna de las opciones",
                     "es_verdadera": true
                 }
             ]
@@ -1056,19 +1056,19 @@
             "pregunta": "La eficiencia promedio de búsqueda en un archivo a partir de disponer de un índice implementado con un árbol del tipo B (B, B* o B+):",
             "respuestas": [
                 {
-                    "respuesta": "a. Orden lineal",
+                    "respuesta": " Orden lineal",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Orden logarítmico",
+                    "respuesta": " Orden logarítmico",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "c. 1",
+                    "respuesta": " 1",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. No dispongo datos para contestar la pregunta",
+                    "respuesta": " No dispongo datos para contestar la pregunta",
                     "es_verdadera": false
                 }
             ]
@@ -1077,19 +1077,19 @@
             "pregunta": "Si el orden de un árbol B es 100, y al borrar un elemento quedan 49 en ese nodo:",
             "respuestas": [
                 {
-                    "respuesta": "a. Se produce underflow y necesariamente debe concatenarse con un adyacente hermano",
+                    "respuesta": " Se produce underflow y necesariamente debe concatenarse con un adyacente hermano",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Se produce underflow y necesariamente debe redistribuirse con un adyacente hermano",
+                    "respuesta": " Se produce underflow y necesariamente debe redistribuirse con un adyacente hermano",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Se produce underflow y la operación a realizar depende del estado de los nodos adyacentes hermanos",
+                    "respuesta": " Se produce underflow y la operación a realizar depende del estado de los nodos adyacentes hermanos",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. No se produce underflow",
+                    "respuesta": " No se produce underflow",
                     "es_verdadera": true
                 }
             ]
@@ -1098,19 +1098,19 @@
             "pregunta": "Dado un árbol B+:",
             "respuestas": [
                 {
-                    "respuesta": "a. Todos sus nodos siempre tienen el registro completo del archivo",
+                    "respuesta": " Todos sus nodos siempre tienen el registro completo del archivo",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Se lo puede utilizar sólo para recorrer secuencialmente al archivo",
+                    "respuesta": " Se lo puede utilizar sólo para recorrer secuencialmente al archivo",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Puede ser más ineficiente que un árbol B en la búsqueda de un elemento",
+                    "respuesta": " Puede ser más ineficiente que un árbol B en la búsqueda de un elemento",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "d. Ninguna de las opciones anteriores",
+                    "respuesta": " Ninguna de las opciones",
                     "es_verdadera": false
                 }
             ]
@@ -1119,19 +1119,19 @@
             "pregunta": "Un árbol binario:",
             "respuestas": [
                 {
-                    "respuesta": "a. Tiene igual eficiencia para la búsqueda de información que un árbol B*",
+                    "respuesta": " Tiene igual eficiencia para la búsqueda de información que un árbol B*",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Tiene igual eficiencia para la búsqueda de información que un árbol B* con prefijos simples",
+                    "respuesta": " Tiene igual eficiencia para la búsqueda de información que un árbol B* con prefijos simples",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Se desbalancean fácilmente",
+                    "respuesta": " Se desbalancean fácilmente",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "d. Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1140,19 +1140,19 @@
             "pregunta": "Dado un archivo de índice secundario implementado con el método de listas invertidas:",
             "respuestas": [
                 {
-                    "respuesta": "a. Es posible asociar sólo una cantidad acotada de claves primarias",
+                    "respuesta": " Es posible asociar sólo una cantidad acotada de claves primarias",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. En ocasiones se desperdicia espacio, ya que se debe reservar el mismo",
+                    "respuesta": " En ocasiones se desperdicia espacio, ya que se debe reservar el mismo",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. El método consiste en usar un archivo adicional de claves primarias que son referenciadas desde el índice secundario",
+                    "respuesta": " El método consiste en usar un archivo adicional de claves primarias que son referenciadas desde el índice secundario",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "d. Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1161,23 +1161,23 @@
             "pregunta": "Un árbol B+ de prefijos simples:",
             "respuestas": [
                 {
-                    "respuesta": "a. Se utiliza para ordenar físicamente un archivo",
+                    "respuesta": " Se utiliza para ordenar físicamente un archivo",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Se utiliza para lograr acceso rápido a la información de un archivo.",
+                    "respuesta": " Se utiliza para lograr acceso rápido a la información de un archivo",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Se utiliza para lograr acceso secuencial rápido a un archivo",
+                    "respuesta": " Se utiliza para lograr acceso secuencial rápido a un archivo",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "d. Se utiliza para lograr acceso directo a los elementos de un archivo",
+                    "respuesta": " Se utiliza para lograr acceso directo a los elementos de un archivo",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "e. Ninguna de las anteriores.",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1186,23 +1186,23 @@
             "pregunta": "Cuales propiedades corresponden a un árbol B* de orden M?:",
             "respuestas": [
                 {
-                    "respuesta": "a. La diferencia máxima de altura entre los dos subárboles cualesquiera que comparten raíz es 1",
+                    "respuesta": " La diferencia máxima de altura entre los dos subárboles cualesquiera que comparten raíz es 1",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Un nodo terminal tiene como mínimo [M/2]-1 claves",
+                    "respuesta": " Un nodo terminal tiene como mínimo [M/2]-1 claves",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Cada nodo puede tener como máximo M hijos",
+                    "respuesta": " Cada nodo puede tener como máximo M hijos",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Un nodo no terminal que tiene K descendientes debe tener K-1 claves",
+                    "respuesta": " Un nodo no terminal que tiene K descendientes debe tener K-1 claves",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "e. Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1211,23 +1211,23 @@
             "pregunta": "Un árbol AVL es:",
             "respuestas": [
                 {
-                    "respuesta": "a. Un árbol n-ario (n > 2)",
+                    "respuesta": " Un árbol n-ario (n > 2)",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Un árbol B",
+                    "respuesta": " Un árbol B",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Un árbol binario paginado",
+                    "respuesta": " Un árbol binario paginado",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Un árbol binario balanceado en altura (BA(1))",
+                    "respuesta": " Un árbol binario balanceado en altura (BA(1))",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "e. Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1236,19 +1236,19 @@
             "pregunta": "Con respecto a un árbol B*:",
             "respuestas": [
                 {
-                    "respuesta": "a. Es más eficiente realizar una búsqueda sobre un árbol B que sobre un árbol B*",
+                    "respuesta": " Es más eficiente realizar una búsqueda sobre un árbol B que sobre un árbol B*",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. La altura puede ser inferior a la de un árbol B porque los elementos se distribuyen más eficientemente en los nodos",
+                    "respuesta": " La altura puede ser inferior a la de un árbol B porque los elementos se distribuyen más eficientemente en los nodos",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "c. Permite acceder secuencialmente a los elementos",
+                    "respuesta": " Permite acceder secuencialmente a los elementos",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1257,19 +1257,19 @@
             "pregunta": "Con respecto a los índices:",
             "respuestas": [
                 {
-                    "respuesta": "a. Al realizar bajas lógicas sobre un índice primario, es posible recuperar esos espacios con nuevas altas",
+                    "respuesta": " Al realizar bajas lógicas sobre un índice primario, es posible recuperar esos espacios con nuevas altas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Un índice es una estructura de datos (adicional al archivo de datos) que debe utilizar registros de longitud variable",
+                    "respuesta": " Un índice es una estructura de datos (adicional al archivo de datos) que debe utilizar registros de longitud variable",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Un índice permite imponer orden en un archivo de datos, sin que éste realmente se reacomode",
+                    "respuesta": " Un índice permite imponer orden en un archivo de datos, sin que éste realmente se reacomode",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "d. Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1278,23 +1278,23 @@
             "pregunta": "Cuando se realiza un alta en un árbol B:",
             "respuestas": [
                 {
-                    "respuesta": "a. Se puede realizar en un nodo interno",
+                    "respuesta": " Se puede realizar en un nodo interno",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Siempre produce overflow",
+                    "respuesta": " Siempre produce overflow",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Puede llegar a necesitar de realizar una fusión de nodos",
+                    "respuesta": " Puede llegar a necesitar de realizar una fusión de nodos",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Siempre se llega hasta el nivel hoja",
+                    "respuesta": " Siempre se llega hasta el nivel hoja",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "e. Ninguna respuesta es la correcta",
+                    "respuesta": " Ninguna respuesta es la correcta",
                     "es_verdadera": false
                 }
             ]
@@ -1303,23 +1303,23 @@
             "pregunta": "cuáles de los siguientes parámetros afecta la eficiencia de la dispersión:",
             "respuestas": [
                 {
-                    "respuesta": "a. cantidad de elementos del archivo",
+                    "respuesta": " cantidad de elementos del archivo",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. cantidad de espacio para almacenar el archivo",
+                    "respuesta": " cantidad de espacio para almacenar el archivo",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. densidad de empaquetamiento",
+                    "respuesta": " densidad de empaquetamiento",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. función de dispersión",
+                    "respuesta": " función de dispersión",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "e. algoritmos para el tratamiento de registros en saturación",
+                    "respuesta": " algoritmos para el tratamiento de registros en saturación",
                     "es_verdadera": false
                 },
                 {
@@ -1340,27 +1340,27 @@
             "pregunta": "Si se quiere dispersar un archivo de 40.000 elementos:",
             "respuestas": [
                 {
-                    "respuesta": "a. se requiere un archivo de 40.000 cubetas",
+                    "respuesta": " se requiere un archivo de 40.000 cubetas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. se requiere un archivo de al menos 40.000 cubetas",
+                    "respuesta": " se requiere un archivo de al menos 40.000 cubetas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. se requiere un archivo de menos de 40.000",
+                    "respuesta": " se requiere un archivo de menos de 40.000",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. todas",
+                    "respuesta": " todas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "e. algunas",
+                    "respuesta": " algunas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "f. ninguna",
+                    "respuesta": " ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -1369,27 +1369,27 @@
             "pregunta": "Si se dispone la DE de un archivo:",
             "respuestas": [
                 {
-                    "respuesta": "a. siempre se puede calcular la cantidad probable de registros en saturación",
+                    "respuesta": " siempre se puede calcular la cantidad probable de registros en saturación",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. no se puede calcular la cantidad probable de registros en saturación",
+                    "respuesta": " no se puede calcular la cantidad probable de registros en saturación",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. si se calcula la cantidad probable de registros en saturación, la DE fuemayor que 1",
+                    "respuesta": " si se calcula la cantidad probable de registros en saturación, la DE fuemayor que 1",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. si se calcula la cantidad probable de registros en saturación, la DE fuemenor que 1",
+                    "respuesta": " si se calcula la cantidad probable de registros en saturación, la DE fuemenor que 1",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "e. algunas",
+                    "respuesta": " algunas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "f. ninguna",
+                    "respuesta": " ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -1398,23 +1398,23 @@
             "pregunta": "El método de tratamiento de desbordes:",
             "respuestas": [
                 {
-                    "respuesta": "a. afecta la DE",
+                    "respuesta": " afecta la DE",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. puede afectar la DE",
+                    "respuesta": " puede afectar la DE",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. afecta la DE en casos especiales",
+                    "respuesta": " afecta la DE en casos especiales",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. afecta la DE en la mayoría de los casos",
+                    "respuesta": " afecta la DE en la mayoría de los casos",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "e. todas",
+                    "respuesta": " todas",
                     "es_verdadera": false
                 },
                 {
@@ -1431,23 +1431,23 @@
             "pregunta": "Una función de hash perfecta:",
             "respuestas": [
                 {
-                    "respuesta": "a. es difícil de conseguir",
+                    "respuesta": " es difícil de conseguir",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. necesita de un algoritmo para tratamiento de registros en saturación",
+                    "respuesta": " necesita de un algoritmo para tratamiento de registros en saturación",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. puede tener menos del 1% de claves sinónimos",
+                    "respuesta": " puede tener menos del 1% de claves sinónimos",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. afecta la DE en la mayoría de los casos",
+                    "respuesta": " afecta la DE en la mayoría de los casos",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "e. todas",
+                    "respuesta": " todas",
                     "es_verdadera": false
                 },
                 {
@@ -1460,31 +1460,31 @@
             "pregunta": "Si ocurrió saturación:",
             "respuestas": [
                 {
-                    "respuesta": "a. hubo colisión",
+                    "respuesta": " hubo colisión",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "b. no hubo colisión",
+                    "respuesta": " no hubo colisión",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. pudo haber ocurrido colisión",
+                    "respuesta": " pudo haber ocurrido colisión",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. hay más de 2 claves sinónimo",
+                    "respuesta": " hay más de 2 claves sinónimo",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "e. todas",
+                    "respuesta": " todas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "f. algunas",
+                    "respuesta": " algunas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "g. ninguna",
+                    "respuesta": " ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1493,19 +1493,19 @@
             "pregunta": "Una colisión se produce:",
             "respuestas": [
                 {
-                    "respuesta": "a. Cuando dos registros diferentes obtienen de la función de hash la misma dirección de disco",
+                    "respuesta": " Cuando dos registros diferentes obtienen de la función de hash la misma dirección de disco",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "b. Cuando dos registros iguales obtienen de la función de hash direcciones diferentes de disco",
+                    "respuesta": " Cuando dos registros iguales obtienen de la función de hash direcciones diferentes de disco",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Cuando un registro no cabe en el lugar donde debe almacenarse de acuerdo al resultado de la función de hash",
+                    "respuesta": " Cuando un registro no cabe en el lugar donde debe almacenarse de acuerdo al resultado de la función de hash",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Cuando dos registros diferentes obtienen de la función de hash direcciones diferentes de disco",
+                    "respuesta": " Cuando dos registros diferentes obtienen de la función de hash direcciones diferentes de disco",
                     "es_verdadera": false
                 }
             ]
@@ -1514,19 +1514,19 @@
             "pregunta": "La eficiencia promedio de búsqueda en un archivo a partir de estar organizado mediante política de Hashing:",
             "respuestas": [
                 {
-                    "respuesta": "a. Orden Lineal",
+                    "respuesta": " Orden Lineal",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Orden logarítmico",
+                    "respuesta": " Orden logarítmico",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Orden Constante",
+                    "respuesta": " Orden Constante",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "d. No dispongo de datos para contestar la pregunta",
+                    "respuesta": " No dispongo de datos para contestar la pregunta",
                     "es_verdadera": false
                 }
             ]
@@ -1535,19 +1535,19 @@
             "pregunta": "La eficiencia de búsqueda de un registro en un archivo organizado mediante hashing estático tiene:",
             "respuestas": [
                 {
-                    "respuesta": "a. Orden Lineal",
+                    "respuesta": " Orden Lineal",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Algunas veces es uno",
+                    "respuesta": " Algunas veces es uno",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "c. Siempre es uno",
+                    "respuesta": " Siempre es uno",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Orden Logarítmico",
+                    "respuesta": " Orden Logarítmico",
                     "es_verdadera": false
                 }
             ]
@@ -1556,19 +1556,19 @@
             "pregunta": "La técnica de saturación progresiva encadenada:",
             "respuestas": [
                 {
-                    "respuesta": "a. Evita la generación de colisiones",
+                    "respuesta": " Evita la generación de colisiones",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Necesita que cada cubeta tenga capacidad para dos o más registros",
+                    "respuesta": " Necesita que cada cubeta tenga capacidad para dos o más registros",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Requiere al menos de dos funciones de hash para el tratamiento de los desbordes",
+                    "respuesta": " Requiere al menos de dos funciones de hash para el tratamiento de los desbordes",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -1577,19 +1577,19 @@
             "pregunta": "Cuál de las siguientes definiciones corresponden al método de hash:",
             "respuestas": [
                 {
-                    "respuesta": "a. Técnica para generar una dirección base única para una clave dada",
+                    "respuesta": "Técnica para generar una dirección base única para una clave dada",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Técnica que convierte la clave asociada a un registro de datos en un número aleatorio, que se utiliza para determinar donde se almacena el registro",
+                    "respuesta": "Técnica que convierte la clave asociada a un registro de datos en un número aleatorio, que se utiliza para determinar donde se almacena el registro",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Técnica de almacenamiento y recuperación que usa una función para mapear registros en direcciones de almacenamiento en memoria secundaria",
+                    "respuesta": "Técnica de almacenamiento y recuperación que usa una función para mapear registros en direcciones de almacenamiento en memoria secundaria",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Todas las anteriores son aplicables",
+                    "respuesta": "Todas son aplicables",
                     "es_verdadera": true
                 }
             ]
@@ -1598,19 +1598,19 @@
             "pregunta": "La técnica de hash:",
             "respuestas": [
                 {
-                    "respuesta": "a. Entorpece la inserción y el borrado de elementos",
+                    "respuesta": " Entorpece la inserción y el borrado de elementos",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. La localización de un registro siempre debe utilizar una tabla adicional en memoria",
+                    "respuesta": " La localización de un registro siempre debe utilizar una tabla adicional en memoria",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. No es conveniente de aplicar sobre claves secundarias",
+                    "respuesta": " No es conveniente de aplicar sobre claves secundarias",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "d. Requiere al menos de dos funciones de hash para el tratamiento de los desbordes",
+                    "respuesta": " Requiere al menos de dos funciones de hash para el tratamiento de los desbordes",
                     "es_verdadera": false
                 }
             ]
@@ -1619,19 +1619,19 @@
             "pregunta": "Cuál de los siguientes conceptos corresponden con parámetros de la dispersión:",
             "respuestas": [
                 {
-                    "respuesta": "a. Capacidad de almacenamiento de cada sector del archivo",
+                    "respuesta": "Capacidad de almacenamiento de cada sector del archivo",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Densidad de empaquetamiento",
+                    "respuesta": "Densidad de empaquetamiento",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Método de tratamiento de desbordes",
+                    "respuesta": "Método de tratamiento de desbordes",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Todos los anteriores",
+                    "respuesta": "Todas",
                     "es_verdadera": true
                 }
             ]
@@ -1640,19 +1640,19 @@
             "pregunta": "Cuando la Densidad de empaquetamiento de un archivo tiende a uno:",
             "respuestas": [
                 {
-                    "respuesta": "a. Es necesario redefinir el espacio disponible únicamente",
+                    "respuesta": " Es necesario redefinir el espacio disponible únicamente",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. El archivo se completa y no es posible incorporar más elementos",
+                    "respuesta": " El archivo se completa y no es posible incorporar más elementos",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Se debe cambiar la política de hash de estática a dinámica",
+                    "respuesta": " Se debe cambiar la política de hash de estática a dinámica",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d. Es necesario redefinir el espacio disponible y rehashear todo el archivo",
+                    "respuesta": " Es necesario redefinir el espacio disponible y rehashear todo el archivo",
                     "es_verdadera": true
                 }
             ]
@@ -1661,19 +1661,19 @@
             "pregunta": "La técnica de hash extensible:",
             "respuestas": [
                 {
-                    "respuesta": "a. Presenta una variante de hash que permite no solo ubicar rápidamente los registros, sino que además permite el acceso secuencial a los mismos",
+                    "respuesta": " Presenta una variante de hash que permite no solo ubicar rápidamente los registros, sino que además permite el acceso secuencial a los mismos",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "b. Siempre inserta un registro con un y solo un acceso a disco",
+                    "respuesta": " Siempre inserta un registro con un y solo un acceso a disco",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "c. Siempre se recupera un registro con un y solo un acceso a disco",
+                    "respuesta": " Siempre se recupera un registro con un y solo un acceso a disco",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "d. En algunos casos recupera un registro con un y solo un acceso a disco",
+                    "respuesta": " En algunos casos recupera un registro con un y solo un acceso a disco",
                     "es_verdadera": false
                 }
             ]
@@ -1694,7 +1694,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1715,7 +1715,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1740,7 +1740,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1761,7 +1761,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1782,7 +1782,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1803,7 +1803,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1828,7 +1828,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1849,7 +1849,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1874,7 +1874,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -1895,11 +1895,11 @@
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "Todas la anteriores",
+                    "respuesta": "Todas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -1941,11 +1941,11 @@
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "Todas las anteriores",
+                    "respuesta": "Todas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Algunas de las anteriores",
+                    "respuesta": "Algunas",
                     "es_verdadera": false
                 }
             ]

@@ -42,7 +42,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Algunas de las anteriores",
+                    "respuesta": "Algunas",
                     "es_verdadera": false
                 }
             ]
@@ -63,7 +63,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -88,7 +88,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -109,15 +109,15 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Todas las anteriores",
+                    "respuesta": "Todas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Algunas de las anteriores son validas",
+                    "respuesta": "Algunas son validas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -142,15 +142,15 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Todas las anteriores",
+                    "respuesta": "Toda",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Algunas de las anteriores",
+                    "respuesta": "Algunas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -175,11 +175,11 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Algunas de las anteriores son validas",
+                    "respuesta": "Algunas son validas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores son validas",
+                    "respuesta": "Ninguna es valida",
                     "es_verdadera": false
                 }
             ]
@@ -200,11 +200,11 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "algunas de las anteriores",
+                    "respuesta": "algunas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Ninguna de las anteriores",
+                    "respuesta": "ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -225,15 +225,15 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "Todas las anteriores son correctas",
+                    "respuesta": "Todas son correctas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Algunas de las respuestas anteriores son correctas",
+                    "respuesta": " Algunas de las respuestas son correctas",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "Ninguna de las respuestas anteriores son validas",
+                    "respuesta": "Ninguna de las respuestas son validas",
                     "es_verdadera": false
                 }
             ]
@@ -262,7 +262,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Alguna de las anteriores",
+                    "respuesta": " Algunas",
                     "es_verdadera": true
                 }
             ]
@@ -287,11 +287,11 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Algunas de las anteriores son validas",
+                    "respuesta": " Algunas son validas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " ninguna de las anteriores son validas",
+                    "respuesta": " ninguna es valida",
                     "es_verdadera": true
                 }
             ]
@@ -320,11 +320,11 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Algunas de las anteriores",
+                    "respuesta": " Algunas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -349,15 +349,15 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Todas las anteriores son correctas",
+                    "respuesta": " Todas son correctas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Algunas de las anteriores son correctas",
+                    "respuesta": " Algunas son correctas",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": " ninguna de las anteriores son correctas",
+                    "respuesta": " ninguna es correcta",
                     "es_verdadera": false
                 }
             ]
@@ -378,15 +378,15 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Todas las anteriores son correctas",
+                    "respuesta": " Todas son correctas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Algunas de las anteriores es correcta",
+                    "respuesta": " Algunas son correctas",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores es correcta",
+                    "respuesta": " Ninguna es correcta",
                     "es_verdadera": false
                 }
             ]
@@ -407,7 +407,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d) todas las respuestas anteriores son correctas",
+                    "respuesta": "d) todas son correctas",
                     "es_verdadera": false
                 },
                 {
@@ -423,7 +423,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "h) ninguna opción anteirior es correcta",
+                    "respuesta": "h) ninguna opción es correcta",
                     "es_verdadera": true
                 }
             ]
@@ -444,7 +444,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d) todas las anteriores son correctas",
+                    "respuesta": "d) todas son correctas",
                     "es_verdadera": true
                 },
                 {
@@ -485,15 +485,15 @@
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": " Toddas las anteriores",
+                    "respuesta": " Toddas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Algunas de las anteriores",
+                    "respuesta": " Algunas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -518,11 +518,11 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Algunas de las anteriores",
+                    "respuesta": " Algunas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -555,7 +555,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " todas las espuestas anteriores corresponden a propiedades de arboles b+",
+                    "respuesta": " todas las respuestas corresponden a propiedades de arboles b+",
                     "es_verdadera": true
                 }
             ]
@@ -584,15 +584,15 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Todas las anteriores",
+                    "respuesta": " Todas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Algunas de las anteriores",
+                    "respuesta": " Algunas",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -613,11 +613,11 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Algunas de las anteriores",
+                    "respuesta": " Algunas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -646,15 +646,15 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Todas las anteriores",
+                    "respuesta": " Todas",
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": " Algunas de las anteriores",
+                    "respuesta": " Algunas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -679,7 +679,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "e) Todas las anteriores son correctas",
+                    "respuesta": "e) Todas son correctas",
                     "es_verdadera": false
                 },
                 {
@@ -720,7 +720,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "d) todas las anteriores son validas",
+                    "respuesta": "d) todas son validas",
                     "es_verdadera": false
                 },
                 {
@@ -736,7 +736,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "h) Ninguna de las anteriores",
+                    "respuesta": "h) Ninguna",
                     "es_verdadera": false
                 }
             ]
@@ -769,7 +769,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Ninguna de las opciones anteriores es correcta",
+                    "respuesta": " Ninguna de las opciones es correcta",
                     "es_verdadera": false
                 }
             ]
@@ -802,7 +802,7 @@
                     "es_verdadera": true
                 },
                 {
-                    "respuesta": "g) Ninguna de las opciones anteriores es correcta",
+                    "respuesta": "g) Ninguna de las opciones es correcta",
                     "es_verdadera": false
                 }
             ]
@@ -823,15 +823,15 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Todas la anteriores",
+                    "respuesta": " Todas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Algunas de las anteriores son validas",
+                    "respuesta": " Algunas son validas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores son validas",
+                    "respuesta": " Ninguna es valida",
                     "es_verdadera": false
                 }
             ]
@@ -856,15 +856,15 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Todas las anteriores",
+                    "respuesta": " Todas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Algunas de las anteriores",
+                    "respuesta": " Algunas",
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": " Ninguna de las anteriores",
+                    "respuesta": " Ninguna",
                     "es_verdadera": true
                 }
             ]
@@ -889,7 +889,7 @@
                     "es_verdadera": false
                 },
                 {
-                    "respuesta": "e) Todas las anteriores son validas",
+                    "respuesta": "e) Todas son validas",
                     "es_verdadera": false
                 },
                 {
