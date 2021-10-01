@@ -1,0 +1,517 @@
+{
+    "materiaId": 11,
+    "preguntas": [
+        {
+            "pregunta": "Si el registro COMP vale 10, y el registro CONT inicia el programa con el valor 0, y se incrementa hasta 10. ¿Qué sucede cuando CONT vale 10, es decir, CONT=COMP?:",
+            "respuestas": [
+                {
+                    "respuesta": "CONT se reinicia a 0",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "CONT deja de aumentar",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "COMP se reinicia a 0",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se genera un pedido de interrupción del Timer",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Se desea programar una subrutina para atender una interrupción de la tecla F10. Si el IMR ya está configurado, y la subrutina ya está programada ¿qué registro del PIC debe modificarse para completar la configuración?:",
+            "respuestas": [
+                {
+                    "respuesta": "IRR",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "ISR",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "EOI",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "INT0",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "INT1",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "INT2",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "INT3",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Se desea programar una subrutina para atender una interrupción de la tecla F10. La dirección de la subrutina de atención está en la dirección 80 (decimal) del vector de interrupciones. ¿qué índice o ID de interrupción debe tener asignada en el registro INT0?:",
+            "respuestas": [
+                {
+                    "respuesta": "80",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "8",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "40",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "4",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "20",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "2",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Si el valor del registro INT1 es 12 (decimal), ¿en qué dirección del vector de interrupciones se encuentra la dirección del a subrutina manejadora de interrupciones correspondiente?:",
+            "respuestas": [
+                {
+                    "respuesta": "12",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "24",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "48",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "12 h",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "24 h",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "48 h",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando se atiende una interrupción y se llama a la subrutina manejadora correspondiente...:",
+            "respuestas": [
+                {
+                    "respuesta": "Se apila la dirección de retorno",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Se apila el ID de la interrupción",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se modifica el IMR",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando se atiende una interrupción y se llama a la subrutina manejadora correspondiente...:",
+            "respuestas": [
+                {
+                    "respuesta": "Se apilan los registros",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se apila el ID de la interrupción",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se modifica el IMR",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se apilan los flags",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuando se atiende una interrupción y se llama a la subrutina manejadora correspondiente...:",
+            "respuestas": [
+                {
+                    "respuesta": "Se apilan los registros",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se apila el ID de la interrupción",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se modifica el ISR",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cuál de las siguientes tareas NO es necesaria para configurar las interrupciones del F10?:",
+            "respuestas": [
+                {
+                    "respuesta": "Configurar el IMR",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Poner la dirección de la subrutina en el vector de interrupciones",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Configurar el registro INT0",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ejecutar una instrucción INT 6",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Escribir la subrutina de atención",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Si IMR=FFh, IRR=06h e ISR=02h (valores en hexadecimal). ¿Qué líneas de interrupción están SIENDO ATENDIDAS?:",
+            "respuestas": [
+                {
+                    "respuesta": "10",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "1",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Todas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "0, 2, 4, 5, 6, 7",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "2",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "0, 1, 3 , 4 , 6, 5, 7",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "0 y 1",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Si IMR=FFh, IRR=06h e ISR=02h (valores en hexadecimal). ¿Qué líneas de interrupción tienen PERMITIDO interrumpir?:",
+            "respuestas": [
+                {
+                    "respuesta": "1",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "0, 2, 4, 5, 6, 7",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "1 y 2",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "0 y 1",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "10",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "2",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "0, 1, 3 , 4 , 6, 5, 7",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Todas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Cuál de las siguientes NO es una ventaja de utilizar el HANDSHAKE en modo consulta de estado en lugar del PIO para comunicarse con una impresora de protocolo CENTRONICS:",
+            "respuestas": [
+                {
+                    "respuesta": "El HANDSHAKE manda la señal de STROBE automáticamente",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El HANDSHAKE no necesita configurar a sus registros como de entrada o salida",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El HANDSHAKE no requiere que la CPU espere a que la impresora esté lista para recibir carácteres",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Ninguna de las anteriores",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Qué instrucciones son necesarias para simular un POP del registro $t1 a la pila ?:",
+            "respuestas": [
+                {
+                    "respuesta": "Ld $t1, 0($sp) y daddi $sp, $sp, -8",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ld $t1, 0($sp) y daddi $sp, $sp, 8",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Sd $t1, 0($sp) y daddi $sp, $sp, -8",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Sd $t1, 0($sp) y daddi $sp, $sp, 8",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La opción 'Forwarding' o adelantamiento de operandos:",
+            "respuestas": [
+                {
+                    "respuesta": "Elimina todos los atascos 'estructurales'",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Minimiza los atascos de tipo 'RAW'",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Minimiza los atascos 'estructurales'",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Elimina siempre todos los atascos de tipo 'RAW'",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Elimina todos los atascos 'Branch Taken Stalls'",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Minimiza los atascos 'Branch Taken Stalls'",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cuales de las siguientes instrucciones pasan el valor del registro $a1 al registro f12:",
+            "respuestas": [
+                {
+                    "respuesta": "mfc1 $a1, f12 y cvt.d.l f12, f12",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "mfc1 $a1, f12 y cvt.l.d f12, f12",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "mtc1 $a1, f12 y cvt.d.l f12, f12",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "mtc1 $a1, f12 y cvt.l.d f12, f12",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "mtc1 f12, $a1 y cvt.d.l f12, f12",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "mfc1 f12, $a1 y cvt.d.l f12, f12",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "ninguna de las opciones propuestas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cuál de las siguientes instrucciones es incorrecta?:",
+            "respuestas": [
+                {
+                    "respuesta": "dsub r4, r3, r7",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "add.d f1, f2, F3",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "mov.d f4, f7",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "dadd r3, r2, 5",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "mfc1 r5, f7",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "cvt.l.d f1, f2",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El WINMIPS64 tiene:",
+            "respuestas": [
+                {
+                    "respuesta": "32 registros de 64 bits cada uno para números enteros e instrucciones de 32 bits de longitud",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "32 registros de 32 bits cada uno para números enteros , 32 registros de punto flotante de 32 bits cada uno e instrucciones de 32 bits de longitud",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "32 registros de 64 bits cada uno para números enteros , 32 registros de punto flotante de 64 bits cada uno e instrucciones de longitud variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "32 registros de 64 bits cada uno para números enteros , 32 registros de punto flotante de 64 bits cada uno e instrucciones de 32 bits de longitud",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "32 registros de 64 bits cada uno para números enteros e instrucciones de longitud variable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "32 registros de 32 bits cada uno para números enteros , 32 registros de punto flotante de 32 bits cada uno e instrucciones de longitud variable",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Qué indica que un registro del WINMIPS64 se vea de color verde?:",
+            "respuestas": [
+                {
+                    "respuesta": "Que la opción 'Branch Target Buffer' está habilitada",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Que la opción 'Fordwarding' está inhabilitada",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Que la opción 'Forwarding' está habilitada",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "La opción 'Branch Target Buffer' agrega al procesador WINMIPS64:",
+            "respuestas": [
+                {
+                    "respuesta": "Otro procesador paralelo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Mas registros de uso general",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Una memoria de saltos",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Una memoria de saltos y otro procesador paralelo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Una memoria de saltos y mas registros de uso general",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Qué valor de CPI indica una ejecución más eficiente?:",
+            "respuestas": [
+                {
+                    "respuesta": "CPI=1.120",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "CPI=0.800",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "CPI=1.350",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Los atascos de tipo RAW se generan porque:",
+            "respuestas": [
+                {
+                    "respuesta": "Una instrucción comienza a ejecutarse y el procesador la trunca",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Una instrucción no hace nada",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Una instrucción necesita un dato que otra anterior aún no guardó",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "ninguna de las otras opciones",
+                    "es_verdadera": false
+                }
+            ]
+        }
+    ]
+}
