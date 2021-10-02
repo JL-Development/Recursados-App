@@ -383,7 +383,7 @@
             "pregunta": "¿Cuál de las siguientes afirmaciones es correcta sobre Python?",
             "respuestas": [
                 {
-                    "resupesta": "Es compatible con la recolección automática de basura.",
+                    "respuesta": "Es compatible con la recolección automática de basura.",
                     "es_verdadera": false
                 },
                 {
@@ -404,7 +404,7 @@
             "pregunta": "¿Cuál es el resultado de la expresión?: 3 * 1 ** 3",
             "respuestas": [
                 {
-                    "resupesta": "27",
+                    "respuesta": "27",
                     "es_verdadera": false
                 },
                 {
@@ -425,7 +425,7 @@
             "pregunta": "¿Cuál es el resultado del siguiente programa?: print 'cd'.partition('cd')",
             "respuestas": [
                 {
-                    "resupesta": "('CD')",
+                    "respuesta": "('CD')",
                     "es_verdadera": false
                 },
                 {
@@ -446,7 +446,7 @@
             "pregunta": "¿Cuál es el resultado del siguiente programa?: print 'abcefd'.replace('cd', '12')",
             "respuestas": [
                 {
-                    "resupesta": "ab1ef2",
+                    "respuesta": "ab1ef2",
                     "es_verdadera": false
                 },
                 {
@@ -467,7 +467,7 @@
             "pregunta": "¿Cuál de estos no es un tipo de datos básicos?",
             "respuestas": [
                 {
-                    "resupesta": "Lista",
+                    "respuesta": "Lista",
                     "es_verdadera": false
                 },
                 {
