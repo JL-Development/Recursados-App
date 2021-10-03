@@ -23,6 +23,9 @@
   En caso de que encuentres un error en una de las respuestas de alguna pregunta, no dudes en reportar el error para que lo corrija. ¡Entre todos iremos mejorando!
   Además podés crear un <b><a href="https://github.com/OmgCopito95/Recursados-App/issues">ISSUE</a></b> en este repositorio, para avisarme de algún problema o sugerencia. 
   
+## Colaborar 🤝
+Si te interesa ayudar brindando contenido que tengas o escribiendo preguntas y respuestas, en el siguiente link<a href="https://github.com/OmgCopito95/Recursados-App/blob/main/plantilla.txt"> PLANTILLA </a> podrás ver una plantilla para escribirlas. De esta manera se me hará mas sencillo el trabajo de revisión y subida a la App. Pero, si querés enviarme información que tengas, podés ir a la sección de Issues y dejarlo ahi 🙂
+  
   <br><br>
   
 <div align="CENTER">
@@ -37,7 +40,7 @@
   
 </div>
 
-## Contacto 🤝
+## Contacto 📫
 Cualquier duda, sugerencia o mejora es bienvenida.
   <br>
   Si te sirve, y gustas ayudarme, podés invitarme un cafecito! <br><br>
