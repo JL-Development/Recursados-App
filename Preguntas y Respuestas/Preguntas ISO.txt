@@ -1,0 +1,217 @@
+{
+    "materiaId": 4,
+    "preguntas": [
+        {
+            "pregunta": "¿Cual de las siguientes características es correcta acerca de GNU/Linux?:",
+            "respuestas": [
+                {
+                    "respuesta": "Es multiusuario",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "No es case sensitive",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Cada directorio debe estar en una misma partición (/home, /var, etc)",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cual de las siguientes características es correcta acerca de GNU/Linux?:",
+            "respuestas": [
+                {
+                    "respuesta": "Es monousuario",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "No es portable",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es código abierto",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cual de las siguientes directorios NO forman parte del FHS?:",
+            "respuestas": [
+                {
+                    "respuesta": "/var",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "/etc",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "/bin",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "/temp",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cual de las siguientes directorios NO forman parte del FHS?:",
+            "respuestas": [
+                {
+                    "respuesta": "/var",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "/bin",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "/users",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cual de las siguientes distribuciones está basada en Debian?:",
+            "respuestas": [
+                {
+                    "respuesta": "Ubuntu",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Fedora",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "OpenSuse",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cual de las siguientes distribuciones está basada en Debian?:",
+            "respuestas": [
+                {
+                    "respuesta": "Gentoo",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "OpenSuse",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Linux Mint",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cuál de las siguientes afirmaciones es correcta respecto al intérprete de comandos (shell) en GNU/Linux?:",
+            "respuestas": [
+                {
+                    "respuesta": "Se define dentro del archivo /etc/shadow",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Forma parte del kernel",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se puede definir un shell distinto por cada usuario del sistema",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "command.com es un ejemplo",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Qué tipo de kernel es linux?:",
+            "respuestas": [
+                {
+                    "respuesta": "Monolítico",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Microkernel",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Monolítico Híbrido",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Híbrido",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cuál de las siguientes herramientas para particionar un disco se considera software destructivo?:",
+            "respuestas": [
+                {
+                    "respuesta": "fips",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "fdisk",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "gparted",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cuál de las siguientes opciones es correcta con respecto a la tablas de particiones del MBR?:",
+            "respuestas": [
+                {
+                    "respuesta": "4 particiones primarias",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "2 particiones primarias, una extendida y una lógica",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": " 3 particiones primarias y una lógica",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cual de las siguientes opciones es correcta acerca de runlevels?:",
+            "respuestas": [
+                {
+                    "respuesta": "Cada uno es responsable de levantar (iniciar) o bajar (parar) una serie de servicios",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Existen 6, permiten iniciar un conjunto de procesos al arranque o apagado del sistema",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "El runlevel 1 hace referencia a un modo shutdown",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "¿Cual de las siguientes opciones es correcta acerca de runlevels?:",
+            "respuestas": [
+                {
+                    "respuesta": "Se encuentran definidos en /etc/inittab",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Se encuentran definidos en /var",
+                    "es_verdadera": false
+                }
+            ]
+        }
+    ]
+}
