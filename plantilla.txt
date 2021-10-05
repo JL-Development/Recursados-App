@@ -1,7 +1,9 @@
+- Reemplazar la palabra texto por la pregunta
+- Escribir tantas preguntas como creas necesario, teniendo en cuenta que SOLO UNA puede ser verdadera
 {
     "preguntas": [
         {
-            "pregunta": "pregunta:",
+            "pregunta": "texto:",
             "respuestas": [
                 {
                     "respuesta": "r1",
@@ -22,7 +24,7 @@
             ]
         },
         {
-            "pregunta": "pregunta:",
+            "pregunta": "texto:",
             "respuestas": [
                 {
                     "respuesta": "r1",
@@ -43,7 +45,7 @@
             ]
         },
         {
-            "pregunta": "pregunta:",
+            "pregunta": "texto:",
             "respuestas": [
                 {
                     "respuesta": "r1",
