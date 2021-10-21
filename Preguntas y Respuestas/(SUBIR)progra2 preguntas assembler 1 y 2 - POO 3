@@ -1,0 +1,414 @@
+{   "materiaId": 8,
+    "preguntas": [
+        {
+            "pregunta": "La transferencia entre la memoria caché y la memoria principal es solo por WORD (2 bytes):",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "A medida que ascendemos en la jerarquía de memoria hay más costo por bit y menor rendimiento:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Los flags pueden ser utilizados en operaciones como los saltos para que el flujo del programa varíe según el resultado de alguna operación:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Los flags se ven modificados luego de realizar operaciones como el movimiento de datos entre los registros de la CPU (AX, BX, etc.):",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Seleccione las afirmaciones válidas para las instrucciones de PUSH y POP:",
+            "respuestas": [
+                {
+                    "respuesta": "Alteran el valor del SP al insertar y quitar elementos:",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Alteran el valor del IP por la inserción y eliminación de elementos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Permiten apilar y desapilar datos de tamaño word que se encuentran almacenados en memoria para enviarlos a una subrutina",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Seleccione las afirmaciones válidas para las instrucciones de PUSH y POP:",
+            "respuestas": [
+                {
+                    "respuesta": "Permiten apilar y desapilar datos de tamaño byte que se encuentran en los registros del procesador para enviarlos como parámetros de una subrutina",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Alteran el valor del IP por la inserción y eliminación de elementos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Permiten apilar y desapilar datos de tamaño word que se encuentran almacenados en memoria para enviarlos a una subrutina",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Al trabajar con una subrutina:",
+            "respuestas": [
+                {
+                    "respuesta": "Se puede ejecutar CALL nombreSubrutina para invocarla",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Todas las afirmaciones son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas son correctas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Se debe realizar RET para recuperar la dirección de retorno desde la pila y volver al programa",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se puede saltar con JMP a la dirección de su primera instrucción para comenzar su ejecución",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se debe realizar RET para vaciar la pila del procesador y volver al programa principal",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna es correcta",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El uso de subrutinas en los programas permite modularizar las soluciones y acelerar su tiempo de ejecución:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Siempre que el pasaje de parámetros sea por referencia, será de tamaño WORD:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Seleccione qué características posee la pila del procesador:",
+            "respuestas": [
+                {
+                    "respuesta": "Se accede con un esquema FIFO (primer elemento en entrar es el primero en salir) ",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Es un módulo reservado de memoria, separado de la memoria de datos e instrucciones",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Tiene un puntero IP que indica el tope de la pila",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se accede con un esquema LIFO (último elemento en entrar es el primero en salir)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se pueden almacenar en ella datos de diferentes tamaños",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Posee operaciones para el apilado y desapilado de elementos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Se encuentra en la memoria a partir de la dirección 4000h ",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Todas son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna es correcta",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas son correctas",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Que una subrutina sea reutilizable implica:",
+            "respuestas": [
+                {
+                    "respuesta": "Recuperar el retorno de la rutina correctamente",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Guardar los flags antes de llamar a la subrutina",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Recuperar los valores de los registros del procesador antes de salir de la subrutina",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Guardar el IP en la pila",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Recuperar los valores de los registros del procesador al volver de la subrutina",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Guardar explícitamente la dirección de retorno al programa",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Recuperar los flags del procesador al volver de la subrutina",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Guardar los valores de los registros del procesador antes de modificarlos en la subrutina",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Todas son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna es correcta",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas son correctas",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "En Java es posible que una clase herede el estado interno y comportamiento de varias super clases:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El método toString() de la clase Object es un método abstracto que debemos sobrescribir en cada clase para mostrar sus atributos:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Dentro de una jerarquía una subclase puede:",
+            "respuestas": [
+                {
+                    "respuesta": "Declarar nuevos atributos y métodos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Heredar y utilizar los métodos de instancia de la superclase",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Implementar el toString() de Object con sus atributos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Sobrescribir constructores de la superclase",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Acceder a los atributos de la superclase por su nombre",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas son correctas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Todas son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna es correcta",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Independientemente del tipo de la referencia utilizada para el envío del mensaje, un método será buscado en la jerarquía partiendo de la clase con que fue instanciado el objeto receptor del mensaje:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La herencia permite:",
+            "respuestas": [
+                {
+                    "respuesta": "Definir el estado interno y comportamiento diferenciado dentro de cada subclase",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Definir el estado interno y comportamiento en común dentro de cada subclase",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Reutilizar código",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Evitar la repetición de código entre los métodos de las diferentes clases que componen la jerarquía",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Factorizar los atributos comunes de dos clases cualquiera",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas son correctas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Todas son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna es correcta",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una clase abstracta es aquella:",
+            "respuestas": [
+                {
+                    "respuesta": "De la cuál no se crearán instancias u objetos en ejecución",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Que puede contener métodos abstractos sin implementación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Que puede contener variables o métodos estáticos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Que puede contener métodos abstractos con implementación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas son correctas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Todas son correctas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El polimorfismo está presente:",
+            "respuestas": [
+                {
+                    "respuesta": "En las referencias de tipos pertenecientes a una jerarquía, al hacer upcasting",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "En la redefinición o sobrescritura de métodos (como el toString)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "En la sobrecarga de constructores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "En el llamado a métodos con igual nombre y diferente lista de parámetros",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Todas son correctas",
+                    "es_verdadera": true
+                }
+            ]
+        }
+    ]
+}

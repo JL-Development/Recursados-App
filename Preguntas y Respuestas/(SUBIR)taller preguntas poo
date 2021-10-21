@@ -1,0 +1,176 @@
+{
+    "materiaId": 3,
+    "preguntas": [
+        {
+            "pregunta": "En Java es posible que una clase herede el estado interno y comportamiento de varias super clases:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El método toString() de la clase Object es un método abstracto que debemos sobrescribir en cada clase para mostrar sus atributos:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "Dentro de una jerarquía una subclase puede:",
+            "respuestas": [
+                {
+                    "respuesta": "Declarar nuevos atributos y métodos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Heredar y utilizar los métodos de instancia de la superclase",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Implementar el toString() de Object con sus atributos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Sobrescribir constructores de la superclase",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Acceder a los atributos de la superclase por su nombre",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas son correctas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Todas son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna es correcta",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Independientemente del tipo de la referencia utilizada para el envío del mensaje, un método será buscado en la jerarquía partiendo de la clase con que fue instanciado el objeto receptor del mensaje:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "La herencia permite:",
+            "respuestas": [
+                {
+                    "respuesta": "Definir el estado interno y comportamiento diferenciado dentro de cada subclase",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Definir el estado interno y comportamiento en común dentro de cada subclase",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Reutilizar código",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Evitar la repetición de código entre los métodos de las diferentes clases que componen la jerarquía",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Factorizar los atributos comunes de dos clases cualquiera",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas son correctas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Todas son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Ninguna es correcta",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Una clase abstracta es aquella:",
+            "respuestas": [
+                {
+                    "respuesta": "De la cuál no se crearán instancias u objetos en ejecución",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Que puede contener métodos abstractos sin implementación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Que puede contener variables o métodos estáticos",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Que puede contener métodos abstractos con implementación",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas son correctas",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Todas son correctas",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "El polimorfismo está presente:",
+            "respuestas": [
+                {
+                    "respuesta": "En las referencias de tipos pertenecientes a una jerarquía, al hacer upcasting",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "En la redefinición o sobrescritura de métodos (como el toString)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "En la sobrecarga de constructores",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "En el llamado a métodos con igual nombre y diferente lista de parámetros",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Algunas son correctas",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Todas son correctas",
+                    "es_verdadera": true
+                }
+            ]
+        }
+    ]
+}
