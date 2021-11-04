@@ -1,0 +1,107 @@
+{
+    "materiaId": 3,
+    "preguntas": [
+        {
+            "pregunta": "El pasaje de mensajes en el robot Rinfo es para el envío se requiere que este sincronizado con el otro robot para poder enviar y para recibir puede hacerlo en cualquier momento sin necesidad de sincronizarse:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "El robot Rinfo utiliza el concepto de memoria compartida en las esquinas de la ciudad:",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Un proceso es  un conjunto de sentencias/instrucciones que se ejecutan secuencialmente. Concepto estático.",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": true
+                }
+            ]
+        },
+        {
+            "pregunta": "BloquearEsquina(av, calle) funciona como 'P' y LiberarEsquina(av, calle) funciona como 'V' de los semáforos",
+            "respuestas": [
+                {
+                    "respuesta": "Verdadero",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Falso",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Tres robots se encuentran inicialmente en (100,1), (100,2) y (100,3). Luego recorren las calles desde 1 a 20 de la ciudad en forma aleatoria. Cada uno recibe al azar la calle y la recorre. En el recorrido debe recolectar un papel en cada esquina. Al finalizarTres robots se encuentran inicialmente en (100,1), (100,2) y (100,3). Luego recorren las calles desde 1 a 20 de la ciudad en forma aleatoria. Cada uno recibe al azar la calle y la recorre. En el recorrido debe recolectar un papel en cada esquina. Al finalizar cada robot debe ir a la esquina (100,100) y depositar todos los papeles encontrados",
+            "respuestas": [
+                {
+                    "respuesta": "Un área privada para cada robot. Un área parcialmente compartida para la esquina (100,100). Un área compartida para los tres robots que va desde (1,1) hasta (100,20)",
+                    "es_verdadera": true
+                },
+                {
+                    "respuesta": "Un área privada para cada robot. Un área privada para la esquina (100,100). Un área compartida para los tres robots que va desde (1,1) hasta (100,20)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Un área compartida para toda la ciudad.",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Un área compartida para la esquina (100,100). Un área privada para cada robot. Un área privada para la esquina (100,100)",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Un área privada para cada robot. Un área compartida para los tres robots que va desde (1,1) hasta (100,20). Un área privada para la esquina (100,100) ",
+                    "es_verdadera": false
+                }
+            ]
+        },
+        {
+            "pregunta": "Realice un programa con dos robots donde cada uno recorra el perímetro de un rectángulo y recolecte las flores encontradas. Inicialmente cada robot se encuentra en la esquina (4,2) y (12,2) respectivamente. El primer robot hace un rectángulo de 3 (base) x 5 (altura)  y el otro de 3 (base ) x 7 (altura). Cuando finalizan deben ir a la esquina (50,50) y desde allí informar la cantidad de flores encontradas",
+            "respuestas": [
+                {
+                    "respuesta": "Área compartida de toda la ciudad para los dos robots ",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Área parcialmente compartida para el robot2. Área compartida desde (4,2) a (12,9) para los dos robots que arman rectángulos. Área privada para el robot1  ",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Área compartida para informar flores en la esquina (50,50) ",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Área privada para el robot1. Área parcialmente compartida para informar flores en la esquina (50,50). Área privada para el robot2",
+                    "es_verdadera": false
+                },
+                {
+                    "respuesta": "Área privada para el robot1. Área parcialmente compartida para informar flores en la esquina (50,50). Área parcialmente compartida para el robot2",
+                    "es_verdadera": false
+                }
+            ]
+        }
+    ]
+}
