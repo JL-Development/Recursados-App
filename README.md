@@ -1,7 +1,7 @@
 <div>
 <h2 align="center">RECURSADOS</h2>
   
-<div align="center"><a href='https://play.google.com/store/apps/details?id=com.copitosystem.recursados'><img width="40%" height="40%" alt='Disponible en Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/es-419_badge_web_generic.png'/></a></div>
+<div align="center"><a href=''><img width="40%" height="40%" alt='Disponible en Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/es-419_badge_web_generic.png'/></a></div>
   
 <div align="center">  
   <p>
