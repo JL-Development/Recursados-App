@@ -1,5 +1,6 @@
 <div>
-<h2 align="center">RECURSADOS</h2>
+  <h2 align="center">RECURSADOS <br><br> <strong>Actualización</strong>: No funciona. Próximamente estará disponible de nuevo!</h2>
+  
   
 <div align="center"><a href=''><img width="40%" height="40%" alt='Disponible en Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/es-419_badge_web_generic.png'/></a></div>
   
